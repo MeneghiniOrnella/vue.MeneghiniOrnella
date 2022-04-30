@@ -2,7 +2,7 @@ import "../App.css"
 
 const Footer =()=> {
     return(
-        <div>
+        <div id="#contact">
             <h2>Contacto</h2>
             <ul className="contacto">
                 <li>meneghini.ornella@gmail.com</li>

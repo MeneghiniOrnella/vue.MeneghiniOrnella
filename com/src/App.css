@@ -11,7 +11,7 @@ a:link, a:visited, a:active {
 
 .skill_div{
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(5,1fr);
 }
 
 .header,.contacto{
@@ -24,6 +24,12 @@ a:link, a:visited, a:active {
 .text{
   text-align: justify;
 }
+.text1{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
 
 /* 
 4)  Escribir un programa que permita al usuario ingresar por teclado números del 1 al 100, y que para cada uno de esos números se muestre por pantalla el cuál es su valor elevado al cuadrado.

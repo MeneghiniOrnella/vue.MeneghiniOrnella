@@ -13,7 +13,8 @@ import "../App.css"
 const Skills =()=> {
     const [skills] = useState(data);
     return(
-        <><h2>Conocimientos</h2>
+        <><div id="#knowledge">
+        <h2>Conocimientos</h2>
         <div  className="skill_div">
             {skills.map((skill)=>{
                 return(
@@ -25,7 +26,7 @@ const Skills =()=> {
                     </div>
                 )
             })}
-        </div></>
+        </div></div></>
     )
 };
 

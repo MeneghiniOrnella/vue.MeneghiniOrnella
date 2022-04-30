@@ -1,13 +1,13 @@
-import "../App.css"
+import "../App.css";
 
 const Header =()=> {
     return(
         <div>
             <ul className="header">
-                <li>Inicio</li>
-                <li>Conocimientos</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#knowledge">Conocimientos</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </div>
     )
