@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+  text-decoration: none;
+  margin: 0 4em;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: rgb(18, 44, 78);
+}
+
+.skill_div{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+
+.header,.contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.text{
+  text-align: justify;
+}
+
+/* 
+4)  Escribir un programa que permita al usuario ingresar por teclado números del 1 al 100, y que para cada uno de esos números se muestre por pantalla el cuál es su valor elevado al cuadrado.
+Se termina cuando el usuario ingresa cero
+
+Martín Augusto Perilli19:35
+ingresar (n1, "ingrese numero")
+
+while (n1 > 0 && n1 <100) {
+ multiplicar (n2, n1, n1)
+ mostrar (n2, "total")
+} 
+Alejo19:36
+asignar (numero, 1)
+asignar (espacio, " ")
+while (numero != 0) {
+   ingresar(numero, "Ingrese un número: ")
+   if ((numero > 0) && (numero <= 100)) {
+      multiplicar(cuadrado, numero, numero)
+      mostrar(cuadrado, "El cuadrado del numero ingresado es:")
+  } else {
+     if ((numero < 0) || (numero > 100)) {
+        mostrar(espacio, "El numero ingresado no es válido. Debe estar entre 0 y 100.")
+     }
+  }
+}
+
+Martín Augusto Perilli19:40
+ingresar (n1, "ingrese numero")
+
+while (n1 > 0 && n1 <100) {
+ multiplicar (n2, n1, n1)
+ mostrar (n2, "total")
+Manu19:58
+asignar (numero, 1)
+asignar (contador, 1)
+asignar (espacio, " ")
+while (contador <= 3) {
+   ingresar(numero, "Ingrese un número: ")
+   if ((numero > 0) && (numero <= 100)) {
+      multiplicar(cuadrado, numero, numero)
+      alert("El cuadrado del numero ingresado es: "+cuadrado)
+      } 
+   else {
+     if ((numero < 0) || (numero > 100)) {
+        mostrar(espacio, "El numero ingresado no es válido. Debe estar entre 0 y 100.")
+     }
+   }
+   sumar (contador, contador, 1)
+}
+num numero
+num cuadrado
+num contador
+char espacio
+Manu20:00
+alert("El numero ingresado no es válido. Debe estar entre 0 y 100.")
+Julieta Ludmila Palacios20:23
+ingresar (n1,´ingrese el numero´)
+if (n1 > 0 && n1 <= 100){
+    mostrar (n2,"numero correcto")
+    }
+else {
+     mostrar ("numero incorrecto")  
+      }
+
+multiplicar (n3, n2, n2) 
+mostrar (n3, "el numero al cuadrado es:")
+Federico Mamoris20:24
+si, con instrucciones nativas de js, hay que poner ";" al final
+Manu20:28
+3)  Elaborar un algoritmo que permita al usuario ingresar por teclado un número del 1 al 10 y se muestre por pantalla la tabla de multiplicar de ese número.
+Martín Augusto Perilli20:29
+la tabla es hasta el 10?
+jennifer moyano20:36
+siii
+sip
+Federico Mamoris20:37
+daniela te quedo el mic abierto
+Daniela Malatesta20:40
+Jodeme
+Mucho tiempo ?
+Manu se hace con suma =o
+Y voy sumando ahí ??
+Raimondo Fabricio20:44
+profe, a mi las multiplicaciones me las hace bien pero en un momento me cambia el texto del mostrar
+Manu20:46
+sí, Fabricio es un tema de la aplicacación
+tratá de usar una variable char para los mensajes
+Manu20:51
+asignar (contador, 0)
+while (contador<10) {
+  mostrar (contador, "valor del contador: ")
+  sumar (contador, contador, 1)
+  }
+num contador
+Federico Mamoris20:53
+profe se puede bajar un porquito la musica porque los agudos me están reventando los oidos
+Daniela Malatesta20:54
+Jajajajajajjaja.
+Federico Mamoris21:04
+pero contador debería ser 1 como valor inicial, sino el primer valor de la tabla daría 0
+y el while <=10
+Federico Mamoris21:05
+está faltando el último valor de la tabla, en ese caso el 20
+Agustin Trentin21:08
+y si se cambia el 10 por un 11 no te hace
+no lo hace del 0 al 10?
+Martín Augusto Perilli21:15
+ingresar (numero, "ingrese un numero")
+asignar (contador, 0) 
+
+if (numero<1 && numero>10)  {
+ while (contador>10)  {
+  multiplicar (numero, contador, numero) 
+  mostrar (numero, "Tabla: ")
+  sumar (contador, contador, 1) 
+ }
+} 
+   else if (numero>1 || numero<10) {
+   mostrar (error, "ingrese un numero del 1 al 10")
+}
+num numero
+num tabla 1
+num contador
+char error
+Federico Mamoris21:16
+while (contador>10)  Esta mal, debería ser menor a diez, nunca te va a entrar en el wihle
+Horacio Alejo Palmaz21:18
+El if está bien?
+Lo mismo el else if
+Manu21:23
+.4. A partir del segundo ejercicio, agregar a la información que recibe el usuario cuál fue la mayor y la menor entre las ventas, y el promedio entre todas las ventas ingresadas por el usuario.
+.. Agregar también una pregunta al usuario al terminar de ingresar las ventas por la forma de pago. Si es en efectivo y >3000, realizar un descuento extra del 10% sobre el descuento anterior.
+.5. Realizar un programa que pregunte primero un número del 1 al 1000 a un usuario, y luego permita a otro usuario
+en seis oportunidades adivinar ese número. El programa debe indicar por pantalla si el número ingresado es mayor o menor al que debe adivinar, y además informar si la diferencia es grande, pequeña o muy pequeña, dependiendo si esta es mayor a 200 y mayor a 20 respectivamente).
+*/
