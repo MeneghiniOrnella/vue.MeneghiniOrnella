@@ -1,0 +1,58 @@
+<template>
+  <div class="hello">
+     <h1>{{ msg }}</h1>
+    <div>
+      <div v-for="{ title, place, start, end, otherInfo } in works" class="cv">
+        <h3>{{ title }}</h3>
+        <p class="place">{{ place}}</p>
+        <p>{{ start }} - {{ end }}</p>
+        <p class="otherInfo">{{ otherInfo }}</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import data from "@/data/work.json";
+
+export default {
+  name: 'Work',
+  props: {
+    msg: String
+  },
+  computed: {
+    works() {
+      return data.map((work) => {
+        return work;
+      })
+    }
+  }
+}
+</script>
+
+
+<style scoped>
+.hello{
+  background-color: rgb(231, 231, 231);
+  padding: 0.5em 2em;
+}
+h3 {
+  margin: 40px 0 0;
+  color: #05003d;
+  text-transform: capitalize;
+}
+p{
+  color: rgb(0, 0, 0);
+}
+.startEnd{
+  text-transform: uppercase;
+  
+}
+.cv{
+  border: 1px solid #350c3a91;
+  box-shadow: 0px 0px 12px #d882d8;
+  margin: 2.5em 2em;
+  border-radius: 15px;
+}
+</style>
+
