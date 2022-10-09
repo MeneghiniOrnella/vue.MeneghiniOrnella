@@ -1,10 +1,18 @@
 [
   {
-    "title": "Full Stack Developer",
+    "title": "Associate Application Developer",
+    "place": "Accenture",
+    "img":   "",
+    "start": "Sep 2022",
+    "end":   "actually",
+    "otherInfo": ""
+  },
+  {
+    "title": "Software Development Contractor",
     "place": "Accenture",
     "img":   "",
     "start": "May 2022",
-    "end":   "actual",
+    "end":   "actually",
     "otherInfo": ""
   },
   {

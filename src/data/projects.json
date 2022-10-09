@@ -1,0 +1,23 @@
+[
+    {
+        "title": "project one",
+        "img": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+        "GitHub": "https://github.com/MeneghiniOrnella",
+        "skills": ["js", "css"]
+    },
+    {
+        "title": "project two",
+        "img": "",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "GitHub": "https://github.com/MeneghiniOrnella",
+        "skills": ["js", "css"]
+    },
+    {
+        "title": "project three",
+        "img": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "GitHub": "https://github.com/MeneghiniOrnella",
+        "skills": ["js", "css"]
+    }
+]
