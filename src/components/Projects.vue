@@ -3,7 +3,8 @@
     <h2>Projects</h2>
     <div class="cards-group">
       <div v-for="project in projects" class="card">
-        <img src="@\assets\logo.png" />
+        <!-- <img src="@\assets\logo.png" /> -->
+        <img src="https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg" alt="pokemon">
         <h3>{{ project.title }}</h3>
         <!-- <div class="skills">
           <p class="skill">{{ project.skills[0] }}</p>
@@ -35,6 +36,11 @@ export default {
 </script>
 
 <style scoped>
+img {
+  width: 8em;
+  height: 8em;
+}
+
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;
