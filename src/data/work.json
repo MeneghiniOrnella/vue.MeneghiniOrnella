@@ -5,7 +5,7 @@
     "img":   "",
     "start": "Sep 2022",
     "end":   "actually",
-    "otherInfo": ""
+    "otherInfo": ["Vue", "CSS", "Accessibility", "Scrum"]
   },
   {
     "title": "Software Development Contractor",
@@ -13,13 +13,13 @@
     "img":   "",
     "start": "May 2022",
     "end":   "actually",
-    "otherInfo": ""
+    "otherInfo": ["Vue", "CSS", "Scrum"]
   },
   {
     "title": "Full Stack Developer",
     "place": "ID for Ideas",
     "start": "Dic 2021",
     "end":   "Abr 2022",
-    "otherInfo": ""
+    "otherInfo": ["React", "CSS", "Scrum"]
   }
 ]

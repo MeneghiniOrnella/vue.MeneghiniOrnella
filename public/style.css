@@ -1,5 +1,5 @@
 body {
-    background: #f2f2f2;
+    background: #ffffff;
 }
 
 h3 {
@@ -23,6 +23,11 @@ a, button {
 }
 a:focus, a:hover {
     color: rgb(205, 36, 191);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
 
 .cards-group {

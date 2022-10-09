@@ -32,7 +32,7 @@ export default {
 /* .hello{
   background-color: rgb(234, 234, 234);
   padding: 0.5em 2em;
-} */
+}
 h3 {
   margin: 40px 0 0;
   color: #05003d;
@@ -46,16 +46,17 @@ h3 {
 }
 .tool {
   font-size: larger;
-}
+} */
 
 .card {
   width: 8em;
   height: 4em;
   padding: 0;
-  justify-self: center;
+  justify-items: center;
   text-align: center;
   background-color: #c5e1fe;
   color: #000000;
+  font-weight: 700;
 }
 
 .card:focus, .card:hover {

@@ -4,9 +4,9 @@
     <div class="cards-group">
       <div v-for="education in educations" class="card">
         <h3>{{ education.title }}</h3>
-        <p class="place">{{ education.place }}</p>
+        <b class="place">{{ education.place }}</b>
         <p>{{ education.start }} - {{ education.end }} | {{ education.endCurrently }}</p>
-        <p class="otherInfo">{{ education.otherInfo }}</p>
+        <p class="otherInfo">Skills: {{ education.otherInfo }}</p>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@ p{
 } */
 .card {
   width: 100%;
-  height: 8em;
+  height: 10em;
   padding: 0;
   justify-self: center;
   text-align: center;

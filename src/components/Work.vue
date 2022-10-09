@@ -4,9 +4,9 @@
     <div class="cards-group">
       <div v-for="{ title, place, start, end, otherInfo } in works" class="card">
         <h3>{{ title }}</h3>
-        <p class="place">{{ place}}</p>
+        <b class="place">{{ place}}</b>
         <p>{{ start }} - {{ end }}</p>
-        <p class="otherInfo">{{ otherInfo }}</p>
+        <p class="otherInfo">Skills: {{ otherInfo }}</p>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@ p{
 } */
 .card {
   width: 100%;
-  height: 8em;
+  height: 10em;
   padding: 0;
   justify-self: center;
   text-align: center;

@@ -28,7 +28,8 @@
     "title":    "Vue",
     "img":      "color/48/000000/vue-js.png",
     "category": "tool"
-  },{
+  },
+  {
     "title":    "Node",
     "img":      "fluency/48/000000/node-js.png",
     "category": "tool"
@@ -46,11 +47,6 @@
   {
     "title":    "SASS",
     "img":      "color/48/000000/sass.png",
-    "category": "tool"
-  },
-  {
-    "title":    "SASS",
-    "img":      "color/50/000000/wordpress.png",
     "category": "tool"
   },
   {

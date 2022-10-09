@@ -5,7 +5,7 @@
     "start": "Mar 2022",
     "end": "2025",
     "endCurrently": "actually",
-    "otherInfo": ""
+    "otherInfo": ["HTML", "CSS", "Javascript", "Java"]
   },
   {
     "title": "International Trade Degree",
@@ -13,7 +13,7 @@
     "start": "Sep 2020",
     "end": "Dic 2021",
     "endCurrently": "graduated",
-    "otherInfo": ""
+    "otherInfo": "Portuguese"
   },
   {
     "title": "International Trade Technique",
@@ -21,6 +21,6 @@
     "start": "Mar 2017",
     "end": "Jul 2020",
     "endCurrently": "graduated",
-    "otherInfo": ""
+    "otherInfo": "English"
   }
 ]

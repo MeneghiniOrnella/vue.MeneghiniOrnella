@@ -74,10 +74,6 @@ export default {
 </script>
 
 <style scoped>
-li {
-  list-style: none;
-  display: inline-block;
-}
 a{
   padding: 1em 2em;
   background-color:#06074c;
