@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
      <h2>Skills</h2>
-    <div class="cv">
+    <div class="cards-group">
       <div v-for="tool in tools" class="card">
         <p class="tool">{{ tool.title }}</p>
       </div>
@@ -29,10 +29,10 @@ export default {
 
 
 <style scoped>
-.hello{
+/* .hello{
   background-color: rgb(234, 234, 234);
   padding: 0.5em 2em;
-}
+} */
 h3 {
   margin: 40px 0 0;
   color: #05003d;
@@ -46,5 +46,20 @@ h3 {
 }
 .tool {
   font-size: larger;
+}
+
+.card {
+  width: 8em;
+  height: 4em;
+  padding: 0;
+  justify-self: center;
+  text-align: center;
+  background-color: #c5e1fe;
+  color: #000000;
+}
+
+.card:focus, .card:hover {
+    background-color: rgb(205, 36, 191);
+    color: #ffffff;
 }
 </style>

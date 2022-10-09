@@ -1,14 +1,14 @@
 <template>
   <div>
   <div>
-    <button
+    <button class="a"
       v-for="tab in tabs"
       :key="tab"
       @click="selected = tab;"
       :class="['tab-btn', { active: selected === tab }]"
     >
       {{ tab }}
-    </button>
+  </button>
 
     <component :is="selected" class="tab"></component>
   </div>
@@ -34,20 +34,22 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .tab-btn {
+  display: inline-block;
+  flex-direction: row;
   padding: 6px 10px;
-  background: #dacb21;
   cursor: pointer;
   margin-bottom: 1rem;
   border: none;
   outline: none;
   font-size: 1em;
+  margin: 1em 0.5em;
 }
 
 .active {
   border-bottom: 5px solid rgb(195, 0, 195);
-  background: #fcfcf;
+  /* background: #fcfcf; */
 }
 
 .title{

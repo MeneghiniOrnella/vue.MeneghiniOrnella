@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
      <h1>{{ msg }}</h1>
-    <div>
-      <div v-for="{ title, place, start, end, otherInfo } in works" class="cv">
+    <div class="cards-group">
+      <div v-for="{ title, place, start, end, otherInfo } in works" class="card">
         <h3>{{ title }}</h3>
         <p class="place">{{ place}}</p>
         <p>{{ start }} - {{ end }}</p>
@@ -32,7 +32,7 @@ export default {
 
 
 <style scoped>
-.hello{
+/* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;
 }
@@ -53,6 +53,15 @@ p{
   box-shadow: 0px 0px 12px #d882d8;
   margin: 2.5em 2em;
   border-radius: 15px;
+} */
+.card {
+  width: 100%;
+  height: 8em;
+  padding: 0;
+  justify-self: center;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
 }
 </style>
 
