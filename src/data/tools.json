@@ -1,57 +1,57 @@
 [
   {
     "title":    "Javascript",
-    "img":      "color/50/000000/javascript--v1.png",
+    "img":      "logo.png",
     "category": "language"
   },
   {
     "title":    "HTML",
-    "img":      "color/50/000000/html-5--v1.png",
+    "img":      "logo.png",
     "category": "language"
   },
   {
     "title":    "CSS",
-    "img":      "color/50/000000/css3.png",
+    "img":      "logo.png",
     "category": "language"
   },
   {
     "title":    "Python",
-    "img":      "color/50/000000/python--v1.png",
+    "img":      "logo.png",
     "category": "language"
   },
   {
     "title":    "React",
-    "img":      "external-vitaliy-gorbachev-blue-vitaly-gorbachev/48/000000/external-atom-nuclear-energy-vitaliy-gorbachev-blue-vitaly-gorbachev.png",
+    "img":      "logo.png",
     "category": "tool"
   },
   {
     "title":    "Vue",
-    "img":      "color/48/000000/vue-js.png",
+    "img":      "logo.png",
     "category": "tool"
   },
   {
     "title":    "Node",
-    "img":      "fluency/48/000000/node-js.png",
+    "img":      "logo.png",
     "category": "tool"
   },
   {
     "title":    "MySQL",
-    "img":      "color/48/000000/mysql-logo.png",
+    "img":      "logo.png",
     "category": "db"
   },
   {
     "title":    "Markdown",
-    "img":      "officel/48/000000/markdown.png",
+    "img":      "logo.png",
     "category": "language"
   },
   {
     "title":    "SASS",
-    "img":      "color/48/000000/sass.png",
+    "img":      "logo.png",
     "category": "tool"
   },
   {
     "title":    "Bootstrap",
-    "img":      "color/50/000000/bootstrap.png",
+    "img":      "logo.png",
     "category": "tool"
   }
 ]

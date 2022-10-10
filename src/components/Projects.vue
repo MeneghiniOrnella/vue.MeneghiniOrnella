@@ -3,15 +3,10 @@
     <h2>Projects</h2>
     <div class="cards-group">
       <div v-for="project in projects" class="card">
-        <!-- <img src="@\assets\logo.png" /> -->
-        <img src="https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg" alt="pokemon">
-        <h3>{{ project.title }}</h3>
-        <!-- <div class="skills">
-          <p class="skill">{{ project.skills[0] }}</p>
-          <p>{{ project.skills[1] }}</p>
-        </div> -->
+        <img :src="require(`@/assets/projects/${ project.img }`)">
         <p class="otherInfo">{{ project.description }}</p>
-        <a href="{{ project.GitHub }}" target="_blank">GitHub</a>
+        <a>GitHub</a>
+        <!-- <a :href="require(`${ project.url }`)">GitHub</a> -->
       </div>
     </div>
   </div>
@@ -22,9 +17,6 @@ import data from "@/data/projects.json";
 
 export default {
   name: 'Projects',
-  props: {
-    msg: String
-  },
   computed: {
     projects() {
       return data.map((project) => {
@@ -40,7 +32,6 @@ img {
   width: 8em;
   height: 8em;
 }
-
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;
@@ -53,17 +44,14 @@ h3 {
 p{
   color: rgb(0, 0, 0);
 }
-
 body {
   background: #f2f2f2;
 }
-
 .cards-group {
   background-color: rgb(238, 255, 203);
   display: flex;
   flex-wrap: wrap;
 }
-
 .card {
   background-color: rgb(255, 255, 255);
   margin: 1.5em 1em;

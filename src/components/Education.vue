@@ -5,8 +5,9 @@
       <div v-for="education in educations" class="card">
         <h3>{{ education.title }}</h3>
         <b class="place">{{ education.place }}</b>
-        <p>{{ education.start }} - {{ education.end }} | {{ education.endCurrently }}</p>
-        <p class="otherInfo">Skills: {{ education.otherInfo }}</p>
+        <p>{{ education.start }} - {{ education.end }} | <b>{{ education.state }}</b></p>
+        
+        <p class="otherInfo">{{ education.otherInfo }}</p>
       </div>
     </div>
   </div>

@@ -2,7 +2,6 @@
   {
     "title": "Associate Application Developer",
     "place": "Accenture",
-    "img":   "",
     "start": "Sep 2022",
     "end":   "actually",
     "otherInfo": ["Vue", "CSS", "Accessibility", "Scrum"]
@@ -10,7 +9,6 @@
   {
     "title": "Software Development Contractor",
     "place": "Accenture",
-    "img":   "",
     "start": "May 2022",
     "end":   "actually",
     "otherInfo": ["Vue", "CSS", "Scrum"]
@@ -18,8 +16,8 @@
   {
     "title": "Full Stack Developer",
     "place": "ID for Ideas",
-    "start": "Dic 2021",
+    "start": "Dec 2021",
     "end":   "Abr 2022",
-    "otherInfo": ["React", "CSS", "Scrum"]
+    "otherInfo": ["React", "CSS", "Scrum", "Figma", "Trello"]
   }
 ]
