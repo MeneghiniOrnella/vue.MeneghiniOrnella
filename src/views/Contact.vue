@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 body {
   background-color: rgb(213, 70, 168);
   margin: 0;
