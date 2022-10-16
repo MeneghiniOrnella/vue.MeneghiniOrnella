@@ -2,7 +2,7 @@
   <div class="hello">
      <h2>Skills</h2>
     <div class="cards-group">
-      <div v-for="tool in tools" class="card">
+      <div v-for="tool in tools">
         <img :src="require(`@/assets/tools/${ tool.img }`)" />
         <p class="tool">{{ tool.title }}</p>
       </div>
@@ -66,7 +66,7 @@ h3 {
 } */
 
 img {
-  height: 10em;
-  width: 10em;
+  height: 5em;
+  width: 5em;
 }
 </style>

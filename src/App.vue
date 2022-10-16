@@ -1,5 +1,6 @@
 <template>
   <nav>
+    <p>Ornella Meneghini</p>
     <router-link to="/" class="nav">Home</router-link>
     <router-link to="/resume" class="nav">Resume</router-link>
     <router-link to="/contact" class="nav">Contact</router-link>

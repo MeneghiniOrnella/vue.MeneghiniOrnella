@@ -6,8 +6,6 @@
         <h3>{{ education.title }}</h3>
         <b class="place">{{ education.place }}</b>
         <p>{{ education.start }} - {{ education.end }} | <b>{{ education.state }}</b></p>
-        
-        <p class="otherInfo">{{ education.otherInfo }}</p>
       </div>
     </div>
   </div>
@@ -57,7 +55,7 @@ p{
 } */
 .card {
   width: 100%;
-  height: 10em;
+  height: 8em;
   padding: 0;
   justify-self: center;
   text-align: center;

@@ -1,57 +1,57 @@
 [
   {
     "title":    "Javascript",
-    "img":      "logo.png",
+    "img":      "icons8-javascript.svg",
     "category": "language"
   },
   {
     "title":    "HTML",
-    "img":      "logo.png",
+    "img":      "icons8-html-5.svg",
     "category": "language"
   },
   {
     "title":    "CSS",
-    "img":      "logo.png",
+    "img":      "icons8-css3.svg",
     "category": "language"
   },
   {
     "title":    "Python",
-    "img":      "logo.png",
+    "img":      "icons8-python.svg",
     "category": "language"
   },
   {
     "title":    "React",
+    "img":      "icons8-react.svg",
+    "category": "tool"
+  },
+  {
+    "title":    "Vue Js",
     "img":      "logo.png",
     "category": "tool"
   },
   {
-    "title":    "Vue",
-    "img":      "logo.png",
-    "category": "tool"
-  },
-  {
-    "title":    "Node",
-    "img":      "logo.png",
+    "title":    "Node Js",
+    "img":      "icons8-nodejs.svg",
     "category": "tool"
   },
   {
     "title":    "MySQL",
-    "img":      "logo.png",
+    "img":      "icons8-my-sql.svg",
     "category": "db"
   },
   {
     "title":    "Markdown",
-    "img":      "logo.png",
+    "img":      "icons8-markdown-80.png",
     "category": "language"
   },
   {
     "title":    "SASS",
-    "img":      "logo.png",
+    "img":      "icons8-sass.svg",
     "category": "tool"
   },
   {
     "title":    "Bootstrap",
-    "img":      "logo.png",
+    "img":      "icons8-bootstrap.svg",
     "category": "tool"
   }
 ]
