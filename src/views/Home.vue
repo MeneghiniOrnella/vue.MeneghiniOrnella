@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <h1>Ornella Meneghini</h1>
+    <h2>Full Stack Developer</h2>
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <About />
     <Tools />

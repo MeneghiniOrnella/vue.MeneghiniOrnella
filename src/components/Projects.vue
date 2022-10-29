@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>Projects</h2>
+    <h3>Projects</h3>
     <div class="cards-group">
       <div v-for="project in projects" class="card">
         <img :src="require(`@/assets/projects/${ project.img }`)">

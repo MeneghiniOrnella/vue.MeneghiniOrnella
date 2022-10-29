@@ -1,6 +1,5 @@
 <template>
-    <div class="hello">
-       <!-- <h1>{{ msg }}</h1> -->
+    <div class="languages">
        <h3>Languages</h3>
       <div class="cards-group">
         <div class="card">
@@ -17,4 +16,4 @@
         </div>
       </div>
     </div>
-  </template>
+</template>

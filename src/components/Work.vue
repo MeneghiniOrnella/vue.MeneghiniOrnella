@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-     <h1>{{ msg }}</h1>
+     <h3>Work Experience</h3>
     <div class="cards-group">
       <div v-for="{ title, place, start, end, otherInfo } in works" class="card">
         <h3>{{ title }}</h3>

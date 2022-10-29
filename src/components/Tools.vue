@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-     <h2>Skills</h2>
+     <h3>Skills</h3>
     <div class="cards-group">
       <div v-for="tool in tools">
         <img :src="require(`@/assets/tools/${ tool.img }`)" />

@@ -1,5 +1,5 @@
 <template>
-  <nav id="app">
+  <nav id="app" class="icons-group">
     <div>
       <!-- <font-awesome-icon icon="fa-solid fa-user-secret" /> -->
       <!-- <p>Ornella Meneghini</p> -->
@@ -33,14 +33,14 @@ nav a {
   color: #2c3e50;
 }
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #b030cd;
 } */
 
-nav {
+/* nav {
   display: flex;
   flex-direction: row;
 }
 .nav {
   margin: 1em 0.5em;
-}
+} */
 </style>

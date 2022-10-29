@@ -1,5 +1,7 @@
 <template>
   <div>
+    <h1>Ornella Meneghini</h1>
+    <h2>Full Stack Developer</h2>
   <div>
     <button class="a"
       v-for="tab in tabs"
@@ -12,7 +14,6 @@
 
     <component :is="selected" class="tab"></component>
   </div>
-  <p>Solo aparecen las ultimas actividades que hice, para + info ir a LinkedIn</p>
   </div>
   <Language />
   <Footer />
