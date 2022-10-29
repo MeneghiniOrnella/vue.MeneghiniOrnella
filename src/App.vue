@@ -1,12 +1,21 @@
 <template>
-  <nav>
-    <p>Ornella Meneghini</p>
-    <router-link to="/" class="nav">Home</router-link>
-    <router-link to="/resume" class="nav">Resume</router-link>
-    <router-link to="/contact" class="nav">Contact</router-link>
+  <nav id="app">
+    <div>
+      <!-- <font-awesome-icon icon="fa-solid fa-user-secret" /> -->
+      <!-- <p>Ornella Meneghini</p> -->
+      <router-link to="/" class="nav"><font-awesome-icon icon="fa-solid fa-house" /> Home</router-link>
+      <router-link to="/resume" class="nav"><font-awesome-icon icon="fa-solid fa-briefcase" /> Resume</router-link>
+      <router-link to="/contact" class="nav"><font-awesome-icon icon="fa-solid fa-message" /> Contact</router-link>
+    </div>
   </nav>
   <router-view/>
 </template>
+
+<script>
+export default {
+    name: 'App'
+}
+</script>
 
 <style>
 #app {

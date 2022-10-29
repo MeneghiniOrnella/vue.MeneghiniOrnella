@@ -12,13 +12,17 @@
 
     <component :is="selected" class="tab"></component>
   </div>
-  <p>Solo aparecen las ultomas actividades que hice, para + info ir a LinkedIn</p>
+  <p>Solo aparecen las ultimas actividades que hice, para + info ir a LinkedIn</p>
   </div>
+  <Language />
+  <Footer />
 </template>
 
 <script>
 import Education from "@/components/Education";
 import Work      from "@/components/Work";
+import Language  from "@/components/Language.vue";
+import Footer    from "@/components/Footer.vue";
 
 export default {
   data: function() {
@@ -29,7 +33,9 @@ export default {
   },
   components: {
     Work,
-    Education
+    Education,
+    Language,
+    Footer
   }
 };
 </script>

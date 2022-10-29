@@ -1,11 +1,12 @@
 <template>
   <div class="hello">
      <!-- <h1>{{ msg }}</h1> -->
+     <h3>Education</h3>
     <div class="cards-group">
       <div v-for="education in educations" class="card">
-        <h3>{{ education.title }}</h3>
+        <h4>{{ education.title }}</h4>
         <b class="place">{{ education.place }}</b>
-        <p>{{ education.start }} - {{ education.end }} | <b>{{ education.state }}</b></p>
+        <p>{{ education.start }} - {{ education.end }} | {{ education.state }}</p>
       </div>
     </div>
   </div>

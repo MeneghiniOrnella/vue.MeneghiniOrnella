@@ -4,6 +4,7 @@
     <About />
     <Tools />
     <Projects />
+    <Footer />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import About from '@/components/About.vue';
 import Tools from '@/components/Tools.vue';
 import Projects from '@/components/Projects.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'HomeView',
   components: {
     About,
     Tools,
-    Projects
+    Projects,
+    Footer
 }
 }
 </script>
