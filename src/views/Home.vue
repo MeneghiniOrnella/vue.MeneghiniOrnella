@@ -23,6 +23,6 @@ export default {
     Tools,
     Projects,
     Footer
-}
+  }
 }
 </script>

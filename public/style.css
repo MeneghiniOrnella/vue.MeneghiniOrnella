@@ -79,3 +79,16 @@ li {
     border: none;
     width: 20rem;
 }
+
+h1 {
+    font-size: 13vw;
+}
+h2 {
+    font-size: 9vw;
+}
+h3 {
+    font-size: 4vw;
+}
+h4, h5, h6 {
+    font-size: 3vw;
+}

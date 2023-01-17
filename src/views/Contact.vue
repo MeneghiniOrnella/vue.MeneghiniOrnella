@@ -8,17 +8,34 @@
     <div class="cards-group">
       <div class="card">
         <p>
-          <a href="https://www.linkedin.com/in/meneghiniornella/" target="_blank">in/meneghiniornella</a>
+          <a href="https://www.linkedin.com/in/meneghiniornella/" target="_blank">
+            <p>in/meneghiniornella</p>
+            <span>Contact me</span>
+          </a>
         </p>
       </div>
       <div class="card">
         <p>
-          <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank">GitHub</a>
+          <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank">
+            <p>GitHub</p>
+            <span>See proyects</span>
+          </a>
         </p>
       </div>
       <div class="card">
         <p>
-          <a href="mailto:meneghini.ornella@gmail.com" target="_blank">meneghini.ornella@gmail.com</a>
+          <a href="mailto:meneghini.ornella@gmail.com" target="_blank">
+            <p>meneghini.ornella@gmail.com</p>
+            <span>Send me an email</span>
+          </a>
+        </p>
+      </div>
+      <div class="card">
+        <p>
+          <a href="https://codepen.io/meneghiniornella" target="_blank">
+            <p>Codepen</p>
+            <span>See little proyects</span>
+          </a>
         </p>
       </div>
     </div>

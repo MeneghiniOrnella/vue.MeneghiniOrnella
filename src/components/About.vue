@@ -1,9 +1,5 @@
 <template>
-  <div class="icons-group contact-home">
-    <a href="mailto:meneghini.ornella@gmail.com">Contacto</a>
-    <a href="https://www.linkedin.com/in/meneghiniornella/?locale=en_US">LinkedIn English</a>
-    <a href="https://www.linkedin.com/in/meneghiniornella/">LinkedIn Spanish</a>
-  </div>
+  <AboutBtn />
     <!-- <font-awesome-icon icon="fa-brands fa-github" />
     <font-awesome-icon icon="fa-solid fa-at" /> -->
   <div class="about-text">
@@ -15,7 +11,12 @@
 </template>
 
 <script>
+import AboutBtn from './AboutBtn.vue';
+
 export default {
-  name: 'About'
+  name: 'About',
+  components: {
+    AboutBtn
+  }
 }
 </script>

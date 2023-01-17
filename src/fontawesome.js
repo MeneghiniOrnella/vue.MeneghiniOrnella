@@ -6,16 +6,16 @@
 //   faImages,
 //   faAt
 // } from "@fortawesome/free-solid-svg-icons";
-import { library } from '@fortawesome/fontawesome-svg-core';
+// import { library } from '@fortawesome/fontawesome-svg-core';
 // import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { 
-    faHouse, faBriefcase, faMessage, 
-    faEnvelope, faLinkedin, faGithub 
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+// import { 
+//     faHouse, faBriefcase, faMessage, 
+//     faEnvelope, faLinkedin, faGithub, faCommand 
+// } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faHouse, faBriefcase, faMessage, faEnvelope, faLinkedin, faGithub);
+// library.add(faHouse, faBriefcase, faMessage, faEnvelope, faLinkedin, faGithub, faCommand);
 
-Vue.component("font-awesome-icon", FontAwesomeIcon);
+// Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 
