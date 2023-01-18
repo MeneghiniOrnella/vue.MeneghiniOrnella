@@ -16,7 +16,7 @@ export default {
 
 <style>
 .font-awesome-icon {
-    color: purple;
+    color: #800080;
     font-size: 2em;
 }
 </style>
