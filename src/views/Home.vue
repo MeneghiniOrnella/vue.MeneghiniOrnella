@@ -5,7 +5,7 @@
     <About />
     <Tools />
     <Projects />
-    <GithubInfo />
+    <!-- <GithubInfo /> -->
     <Footer />
   </div>
 </template>
