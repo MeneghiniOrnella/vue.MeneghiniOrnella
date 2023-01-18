@@ -4,6 +4,7 @@
         <font-awesome-icon icon="award" /><p>Commits of the year <span>10</span></p>
         <font-awesome-icon icon="award" /><p>Years of Experience <span>10</span></p>
         <font-awesome-icon icon="award" /><p>Proyects pinned <span>10</span></p>
+        <img src="https://github-readme-stats.vercel.app/api/?username=MeneghiniOrnella&layout=compact&title_color=a37fa4&text_color=e0d4e1&hide_border=true&langs_count=6&theme=synthwave" width="600" />
     </div>
 </template>
 
