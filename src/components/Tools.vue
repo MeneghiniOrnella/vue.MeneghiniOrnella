@@ -2,7 +2,7 @@
   <div class="hello">
      <h3>Skills</h3>
     <div class="cards-group">
-      <div v-for="tool in tools">
+      <div v-for="tool in tools" class="tool">
         <img :src="require(`@/assets/tools/${ tool.img }`)" />
         <p class="tool">{{ tool.title }}</p>
       </div>
@@ -60,10 +60,9 @@ h3 {
   font-weight: 700;
 } */
 
-/* .card:focus, .card:hover {
-    background-color: rgb(205, 36, 191);
-    color: #ffffff;
-} */
+.tool {
+  margin: 0.6em 0.8em;
+}
 
 img {
   height: 5em;
