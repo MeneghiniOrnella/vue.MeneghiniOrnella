@@ -3,6 +3,7 @@
     <h1>Ornella Meneghini</h1>
     <h2>Full Stack Developer</h2>
     <About />
+    <!-- <Hour /> -->
     <Tools />
     <Projects />
     <!-- <GithubInfo /> -->
@@ -12,6 +13,7 @@
 
 <script>
 import About from '@/components/About.vue';
+import Hour from '@/components/Hour.vue';
 import Tools from '@/components/Tools.vue';
 import Projects from '@/components/Projects.vue';
 import GithubInfo from '@/components/GithubInfo.vue'
@@ -21,6 +23,7 @@ export default {
   name: 'HomeView',
   components: {
     About,
+    Hour,
     Tools,
     Projects,
     GithubInfo,
