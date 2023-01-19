@@ -5,7 +5,6 @@ body {
 h3 {
     margin: 1em 0 0;
     color: #05003d;
-    text-transform: capitalize;
 }
 
 a, button {
@@ -88,14 +87,15 @@ h2 {
 }
 h3 {
     font-size: 6vw;
+    color: #cd24bf;
 }
 h4 {
     font-size: 5vw;
+    color: #cd24bf;
 }
 h5, h6 {
     font-size: 4vw;
 }
-
 p {
     font-size: 1.2rem;
 }
