@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-     <!-- <h1>{{ msg }}</h1> -->
      <h3>Education</h3>
     <div class="cards-group">
       <div v-for="education in educations" class="card">
@@ -17,9 +16,6 @@ import data from "@/data/education.json";
 
 export default {
   name: 'Education',
-  props: {
-    msg: String
-  },
   computed: {
     educations() {
       return data.map((education) => {
