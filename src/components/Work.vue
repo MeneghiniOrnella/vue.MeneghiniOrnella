@@ -54,8 +54,7 @@ p{
   border-radius: 15px;
 } */
 .card {
-  width: 100%;
-  height: 8em;
+  width: 80%;
   padding: 0;
   justify-self: center;
   text-align: center;

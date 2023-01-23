@@ -50,13 +50,4 @@ p{
   margin: 1.5em 2em;
   border-radius: 15px;
 } */
-.card {
-  width: 100%;
-  height: 8em;
-  padding: 0;
-  justify-self: center;
-  text-align: center;
-  background-color: #ffffff;
-  color: #000000;
-}
 </style>
