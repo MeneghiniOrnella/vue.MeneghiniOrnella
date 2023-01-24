@@ -1,5 +1,12 @@
 [
     {
+        "title": "Portfolio",
+        "img": "portfolio.png",
+        "description": "Portfolio created in Vue.",
+        "url": "https://github.com/MeneghiniOrnella/MeneghiniOrnella.github.io",
+        "skills": ["vue", "javascript", "html", "css"]
+    },
+    {
         "title": "Pokemon-Game",
         "img": "pokeapi.png",
         "description": "Guess the pokemon game.It was made using Pokeapi and Vue.",
@@ -19,5 +26,12 @@
         "description": "Multiple choice game made for a taekwondo school.",
         "url": "https://github.com/MeneghiniOrnella/tkd-gamedo",
         "skills": ["html", "javascript", "css"]
+    },
+    {
+        "title": "Role Game",
+        "img": "logo.png",
+        "description": "This application is being created.",
+        "url": "https://github.com/MeneghiniOrnella/",
+        "skills": ["vue", "javascript", "html", "css"]
     }
 ]
