@@ -3,7 +3,8 @@
     <h3>Projects</h3>
     <div class="cards-group">
       <div v-for="project in projects" class="card">
-        <img :src="require(`@/assets/projects/${ project.img }`)">
+        <h4 class="title">{{ project.title }}</h4>
+        <!-- <img :src="require(`@/assets/projects/${ project.img }`)"> -->
         <p class="otherInfo">{{ project.description }}</p>
         <a>GitHub</a>
         <!-- <a :href="require(`${ project.url }`)">GitHub</a> -->
