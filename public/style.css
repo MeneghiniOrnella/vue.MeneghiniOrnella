@@ -1,32 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;700&family=Rubik&display=swap');
+
+#app {
+    font-family: 'Rubik', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
     background: #f4f8fa;
 }
 
+h1 {
+    /* font-size: 10vw; */
+    font-size: 4.4rem;
+}
+h2 {
+    /* font-size: 8vw; */
+    font-size: 2.6rem;
+}
 h3 {
+    /* font-size: 6vw; */
+    color: #cd24bf;
+    font-size: 2rem;
     margin: 1em 0 0;
     color: #05003d;
 }
+h4 {
+    /* font-size: 5vw; */
+    color: #cd24bf;
+    font-size: 1.8rem;
+}
+h5, h6 {
+    /* font-size: 4vw; */
+    font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+p {
+    font-size: 1.2rem;
+}
 
 a, button {
+    display: block;
     padding: 0.4em 0.4em;
     width: 6em;
-    border-radius: 50px;
     font-weight: 600;
-    color: #000000;
+    color: #000;
+    text-decoration: none;
     background-color: #c5e1fe;
     margin: 0 auto;
-    display: block;
     cursor: pointer;
-    text-decoration: none;
     border: none;
+    border-radius: 50px;
 }
 a:focus, a:hover {
     color: #cd24bf;
 }
 
 li {
-    list-style: none;
     display: inline-block;
+    list-style: none;
 }
 
 .cards-group {
@@ -79,32 +109,6 @@ li {
     width: 20rem;
 }
 
-h1 {
-    /* font-size: 10vw; */
-    font-size: 10rem;
-}
-h2 {
-    /* font-size: 8vw; */
-    font-size: 4rem;
-}
-h3 {
-    /* font-size: 6vw; */
-    color: #cd24bf;
-    font-size: 2rem;
-}
-h4 {
-    /* font-size: 5vw; */
-    color: #cd24bf;
-    font-size: 1.8rem;
-}
-h5, h6 {
-    /* font-size: 4vw; */
-    font-size: 1.5rem;
-}
-p {
-    font-size: 1.2rem;
-}
-
 .card {
     width: 80%;
     height: fit-content;
@@ -112,6 +116,6 @@ p {
     padding-bottom: 1.4em;
     justify-self: center;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fff;
+    color: #000;
 }
