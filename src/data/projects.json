@@ -30,7 +30,7 @@
     {
         "title": "Role Game",
         "img": "logo.png",
-        "description": "This application is being created.",
+        "description": "Sorry! This application is being created.",
         "url": "https://github.com/MeneghiniOrnella/",
         "skills": ["vue", "javascript", "html", "css"]
     }
