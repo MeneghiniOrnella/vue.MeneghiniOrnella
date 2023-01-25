@@ -3,7 +3,7 @@
      <h3>Work Experience</h3>
     <div class="cards-group">
       <div v-for="{ title, place, start, end, otherInfo } in works" class="card">
-        <h3>{{ title }}</h3>
+        <h4>{{ title }}</h4>
         <b class="place">{{ place}}</b>
         <p>{{ start }} - {{ end }}</p>
       </div>

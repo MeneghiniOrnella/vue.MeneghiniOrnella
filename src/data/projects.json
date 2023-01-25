@@ -7,7 +7,7 @@
         "skills": ["vue", "javascript", "html", "css"]
     },
     {
-        "title": "Pokemon-Game",
+        "title": "Pokemon Game",
         "img": "pokeapi.png",
         "description": "Guess the pokemon game.It was made using Pokeapi and Vue.",
         "url": "https://github.com/MeneghiniOrnella/pokemon-game",
@@ -31,7 +31,7 @@
         "title": "Role Game",
         "img": "logo.png",
         "description": "Sorry! This application is being created.",
-        "url": "https://github.com/MeneghiniOrnella/",
+        "url": "https://github.com/MeneghiniOrnella/vue-role-game.git",
         "skills": ["vue", "javascript", "html", "css"]
     }
 ]

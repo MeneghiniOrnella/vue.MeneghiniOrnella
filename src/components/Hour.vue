@@ -12,10 +12,10 @@ export default {
     }),
     methods: {
         printHours: function () {
-        return new Date().getHours();
+            return new Date().getHours();
         },
         printMinutes: function () {
-        return new Date().getMinutes();
+            return new Date().getMinutes();
         },
     },
     mounted: function () {
@@ -27,8 +27,8 @@ export default {
 <style>
 .time{
     position: relative;
-    background-color: aqua;
-    border: 1px solid grey;
+    background-color: #0ff;
+    border: 1px solid #747474;
     border-radius: 12px;
     width: 4rem;
     height: 1rem;

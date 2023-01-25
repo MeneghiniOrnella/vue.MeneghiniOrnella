@@ -20,7 +20,7 @@ import GithubInfo from '@/components/GithubInfo.vue'
 import Footer from '@/components/Footer.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'Home',
   components: {
     About,
     Hour,

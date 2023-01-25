@@ -7,36 +7,36 @@
     <br/>
     <div class="cards-group">
       <div class="card">
-        <p>
+        <h4>
           <a href="https://www.linkedin.com/in/meneghiniornella/" target="_blank">
-            <p>in/meneghiniornella</p>
+            LinkedIn <br/>
             <span>Contact me</span>
           </a>
-        </p>
+        </h4>
       </div>
       <div class="card">
-        <p>
+        <h4>
           <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank">
-            <p>GitHub</p>
+            GitHub <br/>
             <span>See proyects</span>
           </a>
-        </p>
+        </h4>
       </div>
       <div class="card">
-        <p>
+        <h4>
           <a href="mailto:meneghini.ornella@gmail.com" target="_blank">
-            <p>meneghini.ornella@gmail.com</p>
+            Email <br/>
             <span>Send me an email</span>
           </a>
-        </p>
+        </h4>
       </div>
       <div class="card">
-        <p>
+        <h4>
           <a href="https://codepen.io/meneghiniornella" target="_blank">
-            <p>Codepen</p>
+            Codepen <br/>
             <span>See little proyects</span>
           </a>
-        </p>
+        </h4>
       </div>
     </div>
   </div>
@@ -47,12 +47,10 @@
   https://www.cassie.codes
   https://codepen.io/smashingmag/pen/MWGJNaw
 -->
-
 </template>
 
 <script>
-
 export default {
-  name: 'HomeView',
+  name: 'Home',
 }
 </script>
