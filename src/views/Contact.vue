@@ -1,7 +1,6 @@
 <template>
   <div class="contact">
-    <h1>Ornella Meneghini</h1>
-    <h2>Full Stack Developer</h2>
+    <Header />
     <h3>Contact me</h3>
     <p>Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.</p>
     <br/>
@@ -50,7 +49,12 @@
 </template>
 
 <script>
+import Header from '@/components/sections/Header.vue';
+
 export default {
   name: 'Home',
+  components: {
+    Header,
+  }
 }
 </script>
