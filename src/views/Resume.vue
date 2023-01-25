@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <!-- <Header /> -->
   <div>
     <button class="a"
       v-for="tab in tabs"
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Header    from "@/components/sections/Header.vue";
+import Header    from "@/components/sections/Banner.vue";
 import Education from "@/components/Education";
 import Work      from "@/components/Work";
 import Language  from "@/components/Language.vue";

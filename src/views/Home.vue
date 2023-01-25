@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Header     from "@/components/sections/Header.vue";
+import Header     from "@/components/sections/Banner.vue";
 import About      from '@/components/About.vue';
 import Hour       from '@/components/Hour.vue';
 import Tools      from '@/components/Tools.vue';

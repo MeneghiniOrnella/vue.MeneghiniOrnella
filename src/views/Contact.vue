@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <Header />
+    <!-- <Header /> -->
     <h3>Contact me</h3>
     <p>Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.</p>
     <br/>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import Header from '@/components/sections/Header.vue';
+import Header from '@/components/sections/Banner.vue';
 
 export default {
   name: 'Home',
