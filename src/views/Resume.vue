@@ -1,6 +1,5 @@
 <template>
-  <!-- <Header /> -->
-  <div>
+  <section>
     <button class="a"
       v-for="tab in tabs"
       :key="tab"
@@ -10,13 +9,12 @@
       {{ tab }}
     </button>
     <component :is="selected" class="tab"></component>
-  </div>
+  </section>
   <Language />
   <Footer />
 </template>
 
 <script>
-import Header    from "@/components/sections/Banner.vue";
 import Education from "@/components/Education";
 import Work      from "@/components/Work";
 import Language  from "@/components/Language.vue";
@@ -30,7 +28,6 @@ export default {
     };
   },
   components: {
-    Header,
     Work,
     Education,
     Language,

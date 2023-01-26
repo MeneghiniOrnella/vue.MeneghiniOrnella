@@ -1,6 +1,5 @@
 <template>
-  <div class="contact">
-    <!-- <Header /> -->
+  <section class="contact">
     <h3>Contact me</h3>
     <p>Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.</p>
     <br/>
@@ -38,7 +37,7 @@
         </h4>
       </div>
     </div>
-  </div>
+  </section>
 <!-- 
   https://codepen.io/Abobakr/pen/NRRNbZ
   https://codepen.io/davidkpiano/pen/ZpRXGj
@@ -49,12 +48,8 @@
 </template>
 
 <script>
-import Header from '@/components/sections/Banner.vue';
 
 export default {
   name: 'Home',
-  components: {
-    Header,
-  }
 }
 </script>

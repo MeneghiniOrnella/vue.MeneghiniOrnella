@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="education">
      <h3>Education</h3>
     <div class="cards-group">
       <div v-for="education in educations" class="card">

@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="work">
      <h3>Work Experience</h3>
     <div class="cards-group">
       <div v-for="{ title, place, start, end, otherInfo } in works" class="card">

@@ -1,16 +1,15 @@
 <template>
-  <div class="hello">
+  <section class="projects">
     <h3>Projects</h3>
     <div class="cards-group">
-      <div v-for="project in projects" class="card">
+      <div v-for="project in projects" :key="project" class="card">
         <h4 class="title">{{ project.title }}</h4>
-        <!-- <img :src="require(`@/assets/projects/${ project.img }`)"> -->
+        <img :src="require(`@/assets/projects/${ project.img }`)">
         <p class="otherInfo">{{ project.description }}</p>
-        <a>GitHub</a>
-        <!-- <a :href="require(`${ project.url }`)">GitHub</a> -->
+        <a :href="project.url" target="_blank">GitHub</a>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

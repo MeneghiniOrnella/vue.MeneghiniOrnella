@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <section class="skills">
      <h3>Skills</h3>
     <div class="cards-group">
       <div v-for="tool in tools" class="tool">
@@ -7,7 +7,7 @@
         <p class="tool">{{ tool.title }}</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

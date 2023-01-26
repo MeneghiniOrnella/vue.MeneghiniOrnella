@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <!-- <div>
     <a href="#" class="favicon">
       <img src="@/../public/favicon/favicon-32x32.png" alt="OM">
     </a>
-  </div>
+  </div> -->
   <nav id="app" class="icons-group">
     <div>
       <router-link to="/" class="nav">
@@ -30,6 +30,13 @@ export default {
 </script>
 
 <style>
+nav > div {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 2em;
+}
+
 .favicon {
     background: none;
 }

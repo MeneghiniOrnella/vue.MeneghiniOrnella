@@ -1,5 +1,5 @@
 <template>
-    <div class="languages">
+    <section class="languages">
        <h3>Languages</h3>
       <div class="cards-group">
         <div class="card">
@@ -15,5 +15,5 @@
             <p>Limited basic competence</p>
         </div>
       </div>
-    </div>
+    </section>
 </template>

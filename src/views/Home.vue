@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header />
+    <Banner />
     <About />
     <!-- <Hour /> -->
     <Tools />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Header     from "@/components/sections/Banner.vue";
+import Banner     from "@/components/sections/Banner.vue";
 import About      from '@/components/About.vue';
 import Hour       from '@/components/Hour.vue';
 import Tools      from '@/components/Tools.vue';
@@ -22,7 +22,7 @@ import Footer     from '@/components/sections/Footer.vue';
 export default {
   name: 'Home',
   components: {
-    Header,
+    Banner,
     About,
     Hour,
     Tools,
