@@ -12,8 +12,8 @@ export default {
 </script>
 
 <style scoped>
-.header {
+.banner {
     padding: 8em 0;
-    background: #9e1c1c url('@/assets/projects/dog.jpg') no-repeat center center fixed;
+    /* background: #9e1c1c url('@/assets/projects/dog.jpg') no-repeat center center fixed; */
 }
 </style>
