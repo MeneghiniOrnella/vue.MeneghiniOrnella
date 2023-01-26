@@ -1,26 +1,26 @@
 <template>
-  <!-- <div>
-    <a href="#" class="favicon">
-      <img src="@/../public/favicon/favicon-32x32.png" alt="OM">
-    </a>
-  </div> -->
-  <nav id="app" class="icons-group">
-    <div>
-      <router-link to="/" class="nav">
-        <font-awesome-icon icon="fa-solid fa-house" /> Home
-      </router-link>
-      <router-link to="/resume" class="nav">
-        <font-awesome-icon icon="fa-solid fa-briefcase" /> Resume
-      </router-link>
-      <router-link to="/contact" class="nav">
-        <font-awesome-icon icon="fa-solid fa-message" /> Contact
-      </router-link>
-      <router-link to="/resume" class="nav">
-        <font-awesome-icon icon="fa-solid fa-command" />
-      </router-link>
-    </div>
-  </nav>
-  <router-view/>
+  <header>
+    <nav id="app" class="icons-group">
+      <div>
+        <router-link to="/" class="favicon nav">
+          <img src="@/../public/favicon/favicon-32x32.png" alt="OM">
+        </router-link>
+        <router-link to="/" class="nav">
+          <font-awesome-icon icon="fa-solid fa-house" /> Home
+        </router-link>
+        <router-link to="/resume" class="nav">
+          <font-awesome-icon icon="fa-solid fa-briefcase" /> Resume
+        </router-link>
+        <router-link to="/contact" class="nav">
+          <font-awesome-icon icon="fa-solid fa-message" /> Contact
+        </router-link>
+        <router-link to="/resume" class="nav">
+          <font-awesome-icon icon="fa-solid fa-command" />
+        </router-link>
+      </div>
+    </nav>
+    <router-view/>
+  </header>
 </template>
 
 <script>
@@ -28,16 +28,3 @@ export default {
     name: 'App'
 }
 </script>
-
-<style>
-nav > div {
-  display: flex;
-  flex-direction: row;
-  position: sticky;
-  top: 2em;
-}
-
-.favicon {
-    background: none;
-}
-</style>

@@ -71,12 +71,21 @@ li {
     list-style: none;
 }
 
+nav > div {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 2em;
+}
+.favicon {
+      background: none;
+}
+
 .cards-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-  
 .card {
     background-color: rgb(255, 255, 255);
     margin: 1.5em 1em;
@@ -134,11 +143,11 @@ li {
 .footer a {
     background: none;
     color: var(--light-principal);
-  }
+}
 .footer a:focus, .footer a:hover, .footer a:active {
     color: var(--dark-principal);
     text-decoration: underline;
-  }
+}
 .footer .last-line {
     display: flex;
     flex-direction: row;
@@ -146,7 +155,7 @@ li {
     margin: 0 2.5em;
     padding-top: 1.2em;
     padding-bottom: 1.3em;
-  }
+}
 .footer p {
     text-align: center;
 }

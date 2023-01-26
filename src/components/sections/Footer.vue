@@ -1,7 +1,6 @@
 <template>
   <div class="footer">
     <hr/>
-    
     <div class="last-line">
       <a href="https://meneghiniornella.netlify.app/" class="copy">Ornella Meneghini &copy 2023</a>
       <div class="icons-group footer">
