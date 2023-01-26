@@ -65,6 +65,9 @@ a, button {
 a:focus, a:hover {
     color: var(--principal);
 }
+a:hover, button:hover {
+    transform: scale(1.2);
+}
 
 li {
     display: inline-block;

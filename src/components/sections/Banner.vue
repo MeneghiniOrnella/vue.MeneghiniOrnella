@@ -7,13 +7,13 @@
 
 <script>
 export default {
-    name: 'Banner'
+    name: 'Banner',
 }
 </script>
 
 <style scoped>
 .banner {
-    padding: 8em 0;
+    padding: 6em 0;
     background: rgb(197,225,254);
     background: linear-gradient(0deg, rgba(197,225,254,0.2049194677871149) 0%, rgba(150,72,170,0.804359243697479) 51%, rgba(197,225,254,0.19931722689075626) 100%);
     /* background: #9e1c1c url('@/assets/projects/dog.jpg') no-repeat center center fixed; */

@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import AboutBtn from './AboutBtn.vue';
+import AboutBtn from '../AboutBtn.vue';
 
 export default {
   name: 'About',

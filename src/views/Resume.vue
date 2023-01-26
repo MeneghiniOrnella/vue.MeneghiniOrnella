@@ -17,7 +17,7 @@
 <script>
 import Education from "@/components/Education";
 import Work      from "@/components/Work";
-import Language  from "@/components/Language.vue";
+import Language  from "@/components/sections/Language.vue";
 import Footer    from "@/components/sections/Footer.vue";
 
 export default {

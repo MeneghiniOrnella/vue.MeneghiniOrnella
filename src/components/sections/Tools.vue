@@ -67,5 +67,16 @@ h3 {
 img {
   height: 5em;
   width: 5em;
+  
+}
+.tool img:hover {
+  animation: rotate-tool 4s linear 0.5s 4 normal forwards running;
+}
+@keyframes rotate-tool {
+  from {
+    transform: rotate(0);
+  } to {
+    transform: rotate(360deg);
+  }
 }
 </style>
