@@ -7,7 +7,6 @@
       <p>My objetive is becoming a complete professional programmer. That is why I always look for courses, videos and complementary texts which help me to grow up professionally in a constant way.</p>
     </div>
   </section>
-  
 </template>
 
 <script>

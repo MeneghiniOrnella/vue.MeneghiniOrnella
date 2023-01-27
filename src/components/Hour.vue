@@ -1,5 +1,7 @@
 <template>
-    <div v-show="time" class="time">
+    <div class="time"
+        v-show="time"
+    >
         <p><span>Arg </span>{{ time }}</p>
     </div>
 </template>
@@ -7,18 +9,21 @@
 <script>
 export default {
     name: 'Hour',
+
     data: () => ({
         time: '',
     }),
+
     methods: {
-        printHours: function () {
+        printHours: () => {
             return new Date().getHours();
         },
-        printMinutes: function () {
+        printMinutes: () => {
             return new Date().getMinutes();
         },
     },
-    mounted: function () {
+
+    mounted: () => {
         this.time = this.printHours()+":"+this.printMinutes();
     },
 }

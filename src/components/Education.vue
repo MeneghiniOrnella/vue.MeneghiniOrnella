@@ -2,7 +2,10 @@
   <div class="education">
      <h3>Education</h3>
     <div class="cards-group">
-      <div v-for="education in educations" class="card">
+      <div class="card"
+        v-for="education in educations"
+        :key="educations"
+      >
         <h4>{{ education.title }}</h4>
         <b class="place">{{ education.place }}</b>
         <p>{{ education.start }} - {{ education.end }} | {{ education.state }}</p>

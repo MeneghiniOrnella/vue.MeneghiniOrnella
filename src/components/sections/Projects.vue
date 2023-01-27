@@ -2,11 +2,20 @@
   <section class="projects">
     <h3>Projects</h3>
     <div class="cards-group">
-      <div v-for="project in projects" :key="project" class="card">
+      <div class="card"
+        v-for="project in projects"
+        :key="project"
+      >
         <h4 class="title">{{ project.title }}</h4>
-        <img :src="require(`@/assets/projects/${ project.img }`)">
+        <img
+          :src="require(`@/assets/projects/${ project.img }`)"
+          :title="project.title"
+          :alt="project.title"
+        >
         <p class="otherInfo">{{ project.description }}</p>
-        <a :href="project.url" target="_blank">GitHub</a>
+        <a target="_blank"
+          :href="project.url"
+        >GitHub</a>
       </div>
     </div>
   </section>
