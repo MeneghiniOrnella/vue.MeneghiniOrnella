@@ -13,9 +13,15 @@
           :alt="project.title"
         >
         <p class="otherInfo">{{ project.description }}</p>
-        <a target="_blank"
-          :href="project.url"
-        >GitHub</a>
+        <div class="projectBtns">
+          <a target="_blank"
+            :href="project.urlGithub"
+          >GitHub</a>
+          <a target="_blank"
+            :href="project.urlSite"
+            :class="{ inactive: project.urlSite === '' }"
+          >Site</a>
+        </div>
       </div>
     </div>
   </section>
@@ -37,10 +43,6 @@ export default {
 </script>
 
 <style scoped>
-img {
-  width: 8em;
-  height: 8em;
-}
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;

@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 a {
-    width: 10em;
+    width: 9em;
     height: 1.4em;
 }
 </style>

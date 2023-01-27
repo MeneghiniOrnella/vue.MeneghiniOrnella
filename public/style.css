@@ -146,6 +146,40 @@ nav > div {
     color: #000;
 }
 
+.tab-btn {
+    display: inline-block;
+    flex-direction: row;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin: 1em 0.5em;
+}
+.active {
+    border-bottom: 5px solid rgb(195, 0, 195);
+}
+
+.banner {
+    padding: 3em 0;
+    background: rgb(197,225,254);
+    background: linear-gradient(0deg, rgba(197,225,254,0.2049194677871149) 0%, rgba(150,72,170,0.804359243697479) 51%, rgba(197,225,254,0.19931722689075626) 100%);
+    /* background: #9e1c1c url('@/assets/projects/dog.jpg') no-repeat center center fixed; */
+}
+
+.projects img {
+    width: 20em;
+    height: 10em;
+}
+.projectBtns {
+    display: flex;
+    flex-direction: row;
+}
+.inactive {
+    display: none;
+}
+
 .footer a {
     background: none;
     color: var(--light-principal);
@@ -168,19 +202,4 @@ nav > div {
 .footer .icons-group footer a {
     margin: 0 0.2rem;
     padding: 0;
-}
-
-.tab-btn {
-    display: inline-block;
-    flex-direction: row;
-    padding: 6px 10px;
-    cursor: pointer;
-    margin-bottom: 1rem;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    margin: 1em 0.5em;
-}
-.active {
-    border-bottom: 5px solid rgb(195, 0, 195);
 }
