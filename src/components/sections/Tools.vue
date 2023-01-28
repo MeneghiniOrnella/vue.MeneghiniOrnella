@@ -5,10 +5,10 @@
       <div v-for="tool in tools" class="tool">
         <img
           :src="require(`@/assets/tools/${ tool.img }`)"
-          :title="tool.title" 
+          :title="tool.title"
           :alt="tool.title" 
-        /><br>
-        <!-- <span class="tool">{{ tool.title }}</span> -->
+        /><!-- <br>
+        <span class="toolTitle">{{ tool.title }}</span> -->
       </div>
     </div>
   </section>
@@ -40,28 +40,21 @@ img {
   width: 5em;
 }
 .tool img:hover {
-  animation: rotate-tool 6s linear 0.5s 4 normal forwards running;
+  animation: rotate-tool 2s linear 0.5s 4 normal forwards running;
 }
 @keyframes rotate-tool {
   from {
     transform: rotate(0);
   } to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
-.tool img[title]:hover {
-  position: relative;
-}
-.tool img[title]:hover::after {
+.toolTitle {
+  display: none;
   position: absolute;
-  left: 50%;
-  top: 100%;
-  padding: 4px;
-  background: rgb(255, 0, 0);
-  white-space: nowrap;
-  z-index: 99;
-  transform: translateX(-50%);
-  content: attr(title);
+}
+.toolTitle:hover {
+  display: inline;
 }
 </style>
