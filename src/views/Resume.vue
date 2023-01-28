@@ -35,3 +35,20 @@ export default {
   }
 };
 </script>
+
+<style>
+.tab-btn {
+    display: inline-block;
+    flex-direction: row;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin: 1em 0.5em;
+}
+.active {
+    border-bottom: 5px solid rgb(195, 0, 195);
+}
+</style>

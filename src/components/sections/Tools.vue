@@ -35,7 +35,7 @@ export default {
   margin: 0.6em 1.4em;
 }
 
-img {
+.tool img {
   height: 5em;
   width: 5em;
 }
@@ -45,8 +45,10 @@ img {
 @keyframes rotate-tool {
   from {
     transform: rotate(0);
+    filter: hue-rotate(50deg);
   } to {
     transform: rotate(-360deg);
+    filter: hue-rotate(360deg);
   }
 }
 

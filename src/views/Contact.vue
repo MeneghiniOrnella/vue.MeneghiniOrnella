@@ -53,3 +53,24 @@ export default {
   name: 'Home',
 }
 </script>
+
+<style>
+.contact .cards-group .card a {
+    width: auto;
+    background: none;
+    border: none;
+}
+.about-text {
+    margin: 4rem;
+}
+.contact-home a{
+    border-radius: 50px;
+    font-weight: 600;
+    color: #000;
+    background-color: var(--secondary);
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    width: 20rem;
+}
+</style>

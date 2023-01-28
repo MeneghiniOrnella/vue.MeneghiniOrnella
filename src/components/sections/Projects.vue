@@ -43,6 +43,17 @@ export default {
 </script>
 
 <style scoped>
+.projects img {
+    width: 20em;
+    height: 10em;
+}
+.projectBtns {
+    display: flex;
+    flex-direction: row;
+}
+.inactive {
+    display: none;
+}
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;
