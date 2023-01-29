@@ -1,6 +1,6 @@
 <template>
   <section>
-    <button class="a"
+    <button
       v-for="tab in tabs"
       :key="tab"
       @click="selected = tab;"
@@ -8,7 +8,7 @@
     >
       {{ tab }}
     </button>
-    <component :is="selected" class="tab"></component>
+    <component :is="selected" class="tab" />
   </section>
   <Language />
   <Footer />

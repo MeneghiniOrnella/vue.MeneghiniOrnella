@@ -35,11 +35,9 @@ export default {
 
 <style scoped>
 h1 {
-    /* font-size: 10vw; */
     font-size: 9rem;
 }
 h2 {
-    /* font-size: 8vw; */
     font-size: 4rem;
 }
 </style>
