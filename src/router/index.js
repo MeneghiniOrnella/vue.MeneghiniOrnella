@@ -15,7 +15,16 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/Contact.vue')
-  }
+  },
+  {
+    path: '/404',
+    name: 'PageNotFound',
+    component: () => import('../views/Error.vue')
+  },
+  {
+    path: "/",
+    redirect: "/404"
+  },
 ];
 
 const router = createRouter({
