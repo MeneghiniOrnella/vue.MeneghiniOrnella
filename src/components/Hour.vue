@@ -24,7 +24,7 @@ export default {
     },
 
     mounted: () => {
-        this.time = this.printHours()+":"+this.printMinutes();
+        this.time = this.printHours() + ":" + this.printMinutes();
     },
 }
 </script>
