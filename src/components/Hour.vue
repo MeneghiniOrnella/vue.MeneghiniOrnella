@@ -9,11 +9,9 @@
 <script>
 export default {
     name: 'Hour',
-
     data: () => ({
         time: '',
     }),
-
     methods: {
         printHours: () => {
             return new Date().getHours();
@@ -22,7 +20,6 @@ export default {
             return new Date().getMinutes();
         },
     },
-
     mounted: () => {
         this.time = this.printHours() + ":" + this.printMinutes();
     },
