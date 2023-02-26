@@ -2,6 +2,11 @@
 
 ## Link: [https://meneghiniornella.netlify.app/](https://meneghiniornella.netlify.app/)
 
+## Technologies used
+- [Vue.Js](https://vuejs.org)
+- CSS
+- Javascript
+
 ## Project setup
 ```
 npm install
