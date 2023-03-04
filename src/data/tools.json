@@ -20,17 +20,17 @@
     "category": "language"
   },
   {
-    "title":    "React",
+    "title":    "React.Js",
     "img":      "icons8-react.svg",
     "category": "tool"
   },
   {
-    "title":    "Vue Js",
+    "title":    "Vue.Js",
     "img":      "logo.png",
     "category": "tool"
   },
   {
-    "title":    "Node Js",
+    "title":    "Node.Js",
     "img":      "icons8-nodejs.svg",
     "category": "tool"
   },
