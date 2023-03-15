@@ -1,11 +1,19 @@
 [
     {
-        "title": "Portfolio",
+        "title": "Portfolio Vue.Js",
         "img": "portfolio.png",
-        "description": "Portfolio created in Vue.Js.",
+        "description": "Professional portfolio created in Vue.js.",
         "urlGithub": "https://github.com/MeneghiniOrnella/MeneghiniOrnella.github.io",
         "urlSite":"https://meneghiniornella.netlify.app/",
-        "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
+        "skills": ["Vue.js", "Javascript", "HTML", "CSS"]
+    },
+    {
+        "title": "Portfolio Js",
+        "img": "portfolio.png",
+        "description": "Professional portfolio",
+        "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
+        "urlSite":"https://meneghiniornella.github.io/portfolio/",
+        "skills": ["Javascript", "HTML", "SASS"]
     },
     {
         "title": "Pokemon Game",
@@ -28,7 +36,7 @@
         "img": "gamedo.png",
         "description": "Multiple choice game made for a taekwondo school.",
         "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
-        "urlSite":"https://gamedo.netlify.app/",
+        "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
         "skills": ["HTML", "Javascript", "CSS"]
     },
     {
