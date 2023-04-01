@@ -1,10 +1,5 @@
 [
   {
-    "title":    "Javascript",
-    "img":      "icons8-javascript.svg",
-    "category": "language"
-  },
-  {
     "title":    "HTML",
     "img":      "icons8-html-5.svg",
     "category": "language"
@@ -15,8 +10,13 @@
     "category": "language"
   },
   {
-    "title":    "Python",
-    "img":      "icons8-python.svg",
+    "title":    "SASS",
+    "img":      "icons8-sass.svg",
+    "category": "tool"
+  },
+  {
+    "title":    "Javascript",
+    "img":      "icons8-javascript.svg",
     "category": "language"
   },
   {
@@ -35,6 +35,11 @@
     "category": "tool"
   },
   {
+    "title":    "Python",
+    "img":      "icons8-python.svg",
+    "category": "language"
+  },
+  {
     "title":    "MySQL",
     "img":      "icons8-my-sql.svg",
     "category": "db"
@@ -43,11 +48,6 @@
     "title":    "Markdown",
     "img":      "icons8-markdown-80.png",
     "category": "language"
-  },
-  {
-    "title":    "SASS",
-    "img":      "icons8-sass.svg",
-    "category": "tool"
   },
   {
     "title":    "Bootstrap",
