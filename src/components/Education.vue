@@ -8,7 +8,7 @@
       >
         <h4>{{ education.title }}</h4>
         <b class="place">{{ education.place }}</b>
-        <p>{{ education.start }} - {{ education.end }} | {{ education.state }}</p>
+        <p>{{ education.start }} - {{ education.end }} | <span class="educationState">{{ education.state }}</span></p>
       </div>
     </div>
   </div>
@@ -31,6 +31,9 @@ export default {
 
 
 <style scoped>
+.educationState {
+  text-transform: uppercase;
+}
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;
