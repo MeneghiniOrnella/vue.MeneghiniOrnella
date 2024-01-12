@@ -2,25 +2,13 @@
   <section class="projects">
     <h3>Projects</h3>
     <div class="cards-group">
-      <div class="card"
-        v-for="project in projects"
-        :key="project"
-      >
+      <div class="card" v-for="project in projects" :key="project">
         <h4 class="title">{{ project.title }}</h4>
-        <img
-          :src="require(`@/assets/projects/${ project.img }`)"
-          :title="project.title"
-          :alt="project.title"
-        >
+        <!-- <img :src="require(`@/assets/projects/${project.img}`)" :title="project.title" :alt="project.title" /> -->
         <p class="otherInfo">{{ project.description }}</p>
         <div class="projectBtns">
-          <a target="_blank"
-            :href="project.urlGithub"
-          >GitHub</a>
-          <a target="_blank"
-            :href="project.urlSite"
-            :class="{ inactive: project.urlSite === '' }"
-          >Site</a>
+          <a target="_blank" :href="project.urlGithub">GitHub</a>
+          <a target="_blank" :href="project.urlSite" :class="{ inactive: project.urlSite === '' }">Site</a>
         </div>
       </div>
     </div>
@@ -44,16 +32,19 @@ export default {
 
 <style scoped>
 .projects img {
-    width: 20em;
-    height: 10em;
+  width: 20em;
+  height: 10em;
 }
+
 .projectBtns {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
+
 .inactive {
-    display: none;
+  display: none;
 }
+
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;

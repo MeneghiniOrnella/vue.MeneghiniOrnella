@@ -1,7 +1,5 @@
 <template>
-    <div class="time"
-        v-show="time"
-    >
+    <div class="time" v-show="time">
         <p><span>Arg </span>{{ time }}</p>
     </div>
 </template>
@@ -27,7 +25,7 @@ export default {
 </script>
 
 <style>
-.time{
+.time {
     position: relative;
     background-color: #0ff;
     border: 1px solid #747474;
@@ -36,6 +34,7 @@ export default {
     height: 1rem;
     padding: 0.4rem;
 }
+
 .time p {
     position: absolute;
     font-size: 0.8em;

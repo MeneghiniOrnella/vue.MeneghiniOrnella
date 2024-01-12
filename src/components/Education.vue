@@ -1,11 +1,8 @@
 <template>
   <div class="education">
-     <h3>Education</h3>
+    <h3>Education</h3>
     <div class="cards-group">
-      <div class="card"
-        v-for="education in educations"
-        :key="educations"
-      >
+      <div class="card" v-for="education in educations" :key="educations">
         <h4>{{ education.title }}</h4>
         <b class="place">{{ education.place }}</b>
         <p>{{ education.start }} - {{ education.end }} | <span class="educationState">{{ education.state }}</span></p>
@@ -34,6 +31,7 @@ export default {
 .educationState {
   text-transform: uppercase;
 }
+
 /* .hello{
   background-color: rgb(231, 231, 231);
   padding: 0.5em 2em;

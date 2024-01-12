@@ -19,12 +19,12 @@
         </router-link>
       </div>
     </nav>
-    <router-view/>
+    <router-view />
   </header>
 </template>
 
 <script>
 export default {
-    name: 'App'
+  name: 'App'
 }
 </script>

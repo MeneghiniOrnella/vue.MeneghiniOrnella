@@ -2,7 +2,8 @@
     <div class="icons-group contact-home">
         <a href="mailto:meneghini.ornella@gmail.com">Contacto</a>
         <a href="https://www.linkedin.com/in/meneghiniornella/?locale=en_US">Linkedin</a>
-        <a href="src/assets/Meneghini-cv.pdf" download="meneghini_ornella_cv">Download <font-awesome-icon icon="fa-solid fa-circle-down" /></a>
+        <a href="src/assets/Meneghini-cv.pdf" download="meneghini_ornella_cv">Download <font-awesome-icon
+                icon="fa-solid fa-circle-down" /></a>
     </div>
 </template>
 

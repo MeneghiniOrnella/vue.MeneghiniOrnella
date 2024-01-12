@@ -20,28 +20,37 @@ export default {
   padding: 2em;
   border-radius: 16px;
 }
+
 .error h1 {
   animation: error-rotate 2s linear 0.5s 4 normal forwards running;
 }
+
 .error img {
   margin-bottom: 2.5em;
 }
+
 .error img:hover {
   animation: error-rotate 2s linear 0.5s 4 normal forwards running;
 }
+
 @keyframes error-rotate {
   0% {
     transform: rotate(0);
-  } 40% {
+  }
+
+  40% {
     transform: rotate(10deg);
     color: #3f3f3f;
     scale: 1.1;
-  } 80% {
+  }
+
+  80% {
     transform: rotate(-10deg);
     color: #050022;
     scale: 1.1;
-  } 100% {
+  }
+
+  100% {
     transform: rotate(0deg);
   }
-}
-</style>
+}</style>

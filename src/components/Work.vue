@@ -1,13 +1,10 @@
 <template>
   <div class="work">
-     <h3>Work Experience</h3>
+    <h3>Work Experience</h3>
     <div class="cards-group">
-      <div class="card"
-        v-for="{ title, place, start, end, otherInfo } in works"
-        :key="works"
-      >
+      <div class="card" v-for="{ title, place, start, end, otherInfo } in works" :key="works">
         <h4>{{ title }}</h4>
-        <b class="place">{{ place}}</b>
+        <b class="place">{{ place }}</b>
         <p>{{ start }} - {{ end }}</p>
       </div>
     </div>
