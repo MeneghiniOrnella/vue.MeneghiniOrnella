@@ -10,11 +10,6 @@
     "category": "language"
   },
   {
-    "title":    "SASS",
-    "img":      "icons8-sass.svg",
-    "category": "tool"
-  },
-  {
     "title":    "Javascript",
     "img":      "icons8-javascript.svg",
     "category": "language"
@@ -25,29 +20,34 @@
     "category": "tool"
   },
   {
-    "title":    "Vue.Js",
-    "img":      "logo.png",
-    "category": "tool"
-  },
-  {
-    "title":    "Node.Js",
-    "img":      "icons8-nodejs.svg",
-    "category": "tool"
-  },
-  {
     "title":    "Python",
     "img":      "icons8-python.svg",
     "category": "language"
   },
   {
-    "title":    "MySQL",
-    "img":      "icons8-my-sql.svg",
-    "category": "db"
+    "title":    "Vue.Js",
+    "img":      "logo.png",
+    "category": "tool"
   },
   {
-    "title":    "Markdown",
-    "img":      "icons8-markdown-80.png",
-    "category": "language"
+    "title":    "MySQL",
+    "img":      "icons8-my-sql.svg",
+    "category": "database"
+  },
+  {
+    "title":    "Wordpress",
+    "img":      "icons8-wordpress.svg",
+    "category": "tool"
+  },
+  {
+    "title":    "Tailwind CSS",
+    "img":      "icons8-tailwind-css.svg",
+    "category": "tool"
+  },
+  {
+    "title":    "SASS",
+    "img":      "icons8-sass.svg",
+    "category": "tool"
   },
   {
     "title":    "Bootstrap",

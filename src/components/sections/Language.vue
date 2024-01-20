@@ -8,11 +8,7 @@
             </div>
             <div class="card">
                 <h4>English</h4>
-                <p>Complete professional competence</p>
-            </div>
-            <div class="card">
-                <h4>Portuguese</h4>
-                <p>Limited basic competence</p>
+                <p>Professional competence</p>
             </div>
         </div>
     </section>

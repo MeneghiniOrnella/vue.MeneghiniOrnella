@@ -5,7 +5,7 @@
       <div class="card" v-for="education in educations" :key="educations">
         <h4>{{ education.title }}</h4>
         <b class="place">{{ education.place }}</b>
-        <p>{{ education.start }} - {{ education.end }} | <span class="educationState">{{ education.state }}</span></p>
+        <p>{{ education.start }} - {{ education.end }} <span class="educationState">| {{ education.state }} | {{ education.otherInfo }}</span></p>
       </div>
     </div>
   </div>
@@ -18,14 +18,11 @@ export default {
   name: 'Education',
   computed: {
     educations() {
-      return data.map((education) => {
-        return education;
-      })
+      return data.map((education) => education)
     }
   }
 }
 </script>
-
 
 <style scoped>
 .educationState {

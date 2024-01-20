@@ -21,9 +21,7 @@ export default {
   },
   computed: {
     works() {
-      return data.map((work) => {
-        return work;
-      })
+      return data.map((work) => work)
     }
   }
 }

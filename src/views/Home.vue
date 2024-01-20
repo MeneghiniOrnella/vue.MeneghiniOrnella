@@ -1,13 +1,11 @@
 <template>
-  <div class="home">
-    <Banner />
-    <About />
-    <!-- <Hour /> -->
-    <Tools />
-    <Projects />
-    <!-- <GithubInfo /> -->
-    <Footer />
-  </div>
+    <div class="home">
+        <Banner />
+        <About />
+        <Tools />
+        <Projects />
+        <Footer />
+    </div>
 </template>
 
 <script>
@@ -20,25 +18,25 @@ import GithubInfo from '@/components/GithubInfo.vue'
 import Footer from '@/components/sections/Footer.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    Banner,
-    About,
-    Hour,
-    Tools,
-    Projects,
-    GithubInfo,
-    Footer
-  }
+    name: 'Home',
+    components: {
+        Banner,
+        About,
+        Hour,
+        Tools,
+        Projects,
+        GithubInfo,
+        Footer
+    }
 }
 </script>
 
 <style scoped>
 h1 {
-  font-size: 9rem;
+    font-size: 9rem;
 }
 
 h2 {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 </style>

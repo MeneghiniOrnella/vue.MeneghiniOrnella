@@ -3,7 +3,7 @@
     "title": "Custom Software Engineering Associate",
     "place": "Accenture",
     "start": "Sep 2022",
-    "end":   "actually",
+    "end":   "currently",
     "otherInfo": ["Vue", "SASS", "Accessibility", "Scrum"]
   },
   {
@@ -13,7 +13,7 @@
     "end":   "Aug 2022",
     "otherInfo": ["Vue", "CSS", "Scrum"]
   },
-  {
+  { 
     "title": "Full Stack Developer",
     "place": "ID for Ideas",
     "start": "Dec 2021",

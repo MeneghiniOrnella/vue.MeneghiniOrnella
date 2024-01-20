@@ -1,13 +1,5 @@
 [
     {
-        "title": "Portfolio Vue.Js",
-        "img": "portfolio.png",
-        "description": "Professional portfolio created in Vue.js.",
-        "urlGithub": "https://github.com/MeneghiniOrnella/MeneghiniOrnella.github.io",
-        "urlSite":"https://meneghiniornella.netlify.app/",
-        "skills": ["Vue.js", "Javascript", "HTML", "CSS"]
-    },
-    {
         "title": "Portfolio Js",
         "img": "portfolio.png",
         "description": "Professional portfolio",
