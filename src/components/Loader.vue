@@ -7,6 +7,12 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: Loader
+}
+</script>
+
 <style scoped>
 .loader {
     display: flex;
@@ -259,4 +265,5 @@
     100% {
         transform: rotate(-360deg);
     }
-}</style>
+}
+</style>

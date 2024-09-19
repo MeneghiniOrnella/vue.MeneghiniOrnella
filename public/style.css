@@ -26,7 +26,6 @@ h2 {
 h3 {
     color: var(--principal);
     font-size: 2.4rem;
-    margin: 1em 0 0;
     color: #05003d;
 }
 h4 {
@@ -45,12 +44,11 @@ b {
 b {
     font-weight: 800;
 }
-
 a,
 button {
     display: block;
-    padding: 0.4em 0.4em;
-    width: 6em;
+    padding: 1em 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     color: #000;
     text-decoration: none;
@@ -112,19 +110,55 @@ nav > div {
     margin: auto;
 }
 
-.card {
-    width: 80%;
-    height: fit-content;
-    padding: 0;
-    padding-bottom: 1.4em;
-    justify-self: center;
-    text-align: center;
-    background-color: #fff;
-    color: #000;
-}
-
 .about-text p,
 .contact p {
     text-align: left;
     padding: .5em 4em;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 1.4rem;
+    }
+    h5,
+    h6 {
+        font-size: 1.2rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    p,
+    b {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: .5em .5em;
+        padding: .5em .2em;
+        width: 100%;
+    }
+
+    .about-text p,
+    .contact p {
+        padding: .3em .5em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    *{
+        background-color: red;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    *{
+        background-color: red;
+    }
 }

@@ -2,21 +2,19 @@
     <header>
         <nav id="app" class="icons-group">
             <div>
-                <router-link to="/" class="favicon nav">
+                <router-link to="/" class="favicon nav" aria-label="Go to home view">
                     <img src="@/../public/favicon/favicon-32x32.png" alt="OM">
                 </router-link>
-                <router-link to="/" class="nav">
+                <router-link to="/" class="nav" aria-label="Go to home view">
                     <font-awesome-icon icon="fa-solid fa-house" /> Home
                 </router-link>
-                <router-link to="/resume" class="nav">
+                <router-link to="/resume" class="nav" aria-label="Go to resume view">
                     <font-awesome-icon icon="fa-solid fa-briefcase" /> Resume
                 </router-link>
-                <router-link to="/contact" class="nav">
+                <router-link to="/contact" class="nav" aria-label="Go to contact view">
                     <font-awesome-icon icon="fa-solid fa-message" /> Contact
                 </router-link>
-                <router-link to="/resume" class="nav">
-                    <font-awesome-icon icon="fa-solid fa-command" />
-                </router-link>
+                <a href="https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing" class="nav" aria-label="Go to Curriculum Vitae in PDF" target="_blank"><font-awesome-icon icon="fa-solid fa-file-pdf" /> CV</a>
             </div>
         </nav>
         <router-view />
@@ -24,7 +22,20 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 export default {
-    name: 'App'
+    name: 'App',
+    methods: {
+        downloadPdf() {
+            const link = document.createElement('a');
+            const cvPath = 'https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing';
+            link.href = cvPath;
+            link.setAttribute('download', 'MeneghiniOrnella-CV.pdf');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    }
 }
 </script>

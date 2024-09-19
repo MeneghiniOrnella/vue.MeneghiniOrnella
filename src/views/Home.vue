@@ -30,13 +30,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-h1 {
-    font-size: 9rem;
-}
-
-h2 {
-    font-size: 4rem;
-}
-</style>

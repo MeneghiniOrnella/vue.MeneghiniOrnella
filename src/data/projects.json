@@ -8,6 +8,14 @@
         "skills": ["Javascript", "HTML", "SASS"]
     },
     {
+        "title": "Library App",
+        "img": "library_app.png",
+        "description": "Development of a Book List Application",
+        "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
+        "urlSite":"https://meneghiniornella.github.io/library_app/",
+        "skills": ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"]
+    },
+    {
         "title": "Pokemon Game",
         "img": "pokeAPI.png",
         "description": "Guess the pokemon game.It was made using PokeAPI and Vue.Js.",
@@ -38,5 +46,13 @@
         "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
         "urlSite":"",
         "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    {
+        "title": "Money Manager",
+        "img": "logo.png",
+        "description": "Sorry! This application is being created.",
+        "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
+        "urlSite":"",
+        "skills": ["Vue.Js", "Javascript", "HTML", "CSS", "Axios", "Pinia", "Vue-ChartJs", "Papa Parse 5"]
     }
 ]

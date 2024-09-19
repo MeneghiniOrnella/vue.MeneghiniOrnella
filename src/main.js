@@ -13,6 +13,7 @@ import {
 	faEnvelope,
 	faAward,
 	faCircleDown,
+	faFilePdf
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faGithub as fasGithub } from "@fortawesome/free-brands-svg-icons";
@@ -24,7 +25,8 @@ library.add(
 	faEnvelope,
 	faAward,
 	fasGithub,
-	faCircleDown
+	faCircleDown,
+	faFilePdf
 );
 
 // https://fontawesome.com/docs/web/use-with/vue/add-icons

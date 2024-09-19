@@ -20,11 +20,6 @@
     "category": "tool"
   },
   {
-    "title":    "Python",
-    "img":      "icons8-python.svg",
-    "category": "language"
-  },
-  {
     "title":    "Vue.Js",
     "img":      "logo.png",
     "category": "tool"
@@ -40,6 +35,11 @@
     "category": "tool"
   },
   {
+    "title":    "PHP",
+    "img":      "icons8-php.svg",
+    "category": "language"
+  },
+  {
     "title":    "Tailwind CSS",
     "img":      "icons8-tailwind-css.svg",
     "category": "tool"
@@ -53,5 +53,10 @@
     "title":    "Bootstrap",
     "img":      "icons8-bootstrap.svg",
     "category": "tool"
+  },
+  {
+    "title":    "Python",
+    "img":      "icons8-python.svg",
+    "category": "language"
   }
 ]

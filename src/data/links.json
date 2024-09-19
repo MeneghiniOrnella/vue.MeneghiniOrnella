@@ -1,0 +1,22 @@
+[
+    {
+        "title": "email",
+        "link": "mailto:meneghini.ornella@gmail.com",
+        "arialabel": "Go to your email and send me a message in a new windows"
+    },
+    {
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
+        "arialabel": "Go to my LinkedIn profile and send me a message in a new windows"
+    },
+    {
+        "title": "Github",
+        "link": "https://github.com/MeneghiniOrnella?tab=repositories",
+        "arialabel": "Go to my Github profile and watch my repositories in a new windows"
+    },
+    {
+        "title": "Codepen",
+        "link": "https://codepen.io/meneghiniornella",
+        "arialabel": "Go to watch my Codepen proyects in a new windows"
+    }
+]
