@@ -1,6 +1,6 @@
 <template>
     <section class="projects">
-        <h3>Projects</h3>
+        <h3>{{ $t('hProjects') }}</h3>
         <div class="cards-group">
             <div class="card" v-for="project in projects" :key="project">
                 <h4 class="title">{{ project.title }}</h4>
@@ -10,7 +10,7 @@
                     <a target="_blank" :href="project.urlGithub"
                         aria-label="Go to Github this repository in a new window">GitHub</a>
                     <a target="_blank" :href="project.urlSite" aria-label="Go to site in a new window"
-                        :class="{ inactive: project.urlSite === '' }">Site</a>
+                        :class="{ inactive: project.urlSite === '' }">{{ $t('siteBtn') }}</a>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import data from "@/data/projects.json";
+import data from "@/data/dataEN/projects.json";
 
 
 export default {

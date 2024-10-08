@@ -1,0 +1,35 @@
+{
+    "languageBtn": "EN",
+    "contactBtn": "Contacto",
+
+    "about": {
+        "h": "Acerca de mi",
+        "p1": "En 2020 decidí cambiar el rumbo de mi carrera profesional y convertirme en Full Stack Developer. Terminé la carrera de Comercio Internacional porque tenía el objetivo y la perseverancia para terminarla. Estoy estudiando una carrera técnica. Actualmente, aprendo diferentes idiomas e información sobre el mundo IT.",
+        "p2": "Mi objetivo es convertirme en un programador profesional completo, por eso siempre busco cursos, vídeos y textos complementarios que me ayuden a crecer profesionalmente de forma constante."
+    },
+    
+    "hProjects": "Proyectos",
+    "siteBtn": "Sitio",
+
+    "hSkills": "Habilidades",
+
+    "hContact": "Contactame",
+    "pContact1": "Hola! Estemos en contacto.",
+    "pContact2": "Ver proyectos",
+    "pContact3": "Enviame un mail",
+    "pContact4": "Ver pequeños proyectos",
+
+    "hError": "Error: Pagina no encontrada",
+    "Home": "Inicio",
+    "Resume": "Curriculum",
+
+    "hWork": "Experiencia Laboral",
+
+    "languages": {
+        "h": "Languajes",
+        "h1": "Español",
+        "p1": "Competencia Nativa",
+        "h2": "Ingles",
+        "p2": "Competencia Professional"
+    }
+}

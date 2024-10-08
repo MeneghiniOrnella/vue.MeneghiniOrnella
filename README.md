@@ -28,4 +28,6 @@ npm run build
 
 ### More information
 
-See [Configuration Reference CLI](https://cli.vuejs.org/config/), [Fontawesome](https://fontawesome.com/).
+See [Configuration Reference CLI](https://cli.vuejs.org/config/), [Fontawesome](https://fontawesome.com/), [Vue-i18n](https://vue-i18n.intlify.dev).
+
+<!-- https://fontawesome.com/docs/web/use-with/vue/add-icons -->

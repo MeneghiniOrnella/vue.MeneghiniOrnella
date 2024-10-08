@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import data from "@/data/education.json";
+import data from "@/data/dataEN/education.json";
 
 export default {
     name: 'Education',

@@ -27,6 +27,12 @@ export default {
         Projects,
         GithubInfo,
         Footer
-    }
+    },
+    methods: {
+        toggleLanguage() {
+            const newLanguage = this.$getCurrentLanguage() === 'es' ? 'en' : 'es';
+            this.$changeLanguage(newLanguage);
+        },
+    },
 }
 </script>

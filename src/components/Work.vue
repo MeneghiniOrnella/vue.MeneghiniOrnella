@@ -1,6 +1,6 @@
 <template>
     <div class="work">
-        <h3>Work Experience</h3>
+        <h3>{{ $t('hWork') }}</h3>
         <div class="cards-group">
             <div class="card" v-for="{ title, place, start, end, otherInfo } in works" :key="works">
                 <h4>{{ title }}</h4>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import data from "@/data/work.json";
+import data from "@/data/dataEN/work.json";
 
 export default {
     name: 'Work',

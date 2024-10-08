@@ -7,7 +7,7 @@
         <font-awesome-icon icon="award" />
         <p>Years of Experience <span>10</span></p>
         <font-awesome-icon icon="award" />
-        <p>Proyects pinned <span>10</span></p>
+        <p>Projects pinned <span>10</span></p>
     </div>
 </template>
 

@@ -34,7 +34,7 @@
     {
         "title": "Gamedo",
         "img": "gamedo.png",
-        "description": "Multiple choice game made for a taekwondo school.",
+        "description": "Multiple choice game made for a taekwondo school",
         "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
         "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
         "skills": ["HTML", "Javascript", "CSS"]
@@ -42,7 +42,7 @@
     {
         "title": "Role Game",
         "img": "logo.png",
-        "description": "Sorry! This application is being created.",
+        "description": "Sorry! This application is being created",
         "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
         "urlSite":"",
         "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
@@ -50,7 +50,7 @@
     {
         "title": "Money Manager",
         "img": "logo.png",
-        "description": "Sorry! This application is being created.",
+        "description": "Sorry! This application is being created",
         "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
         "urlSite":"",
         "skills": ["Vue.Js", "Javascript", "HTML", "CSS", "Axios", "Pinia", "Vue-ChartJs", "Papa Parse 5"]

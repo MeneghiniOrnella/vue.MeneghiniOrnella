@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Tecnicatura en Programación",
+    "place": "Universidad CAECE",
+    "start": "Mar 2023",
+    "end": "futuro",
+    "state": "actualmente",
+    "otherInfo": "Python"
+  },
+  {
+    "title": "Licenciatura en Comercio Internacional",
+    "place": "Universidad de la Marina Mercante",
+    "start": "Sep 2020",
+    "end": "Dic 2021",
+    "state": "graduada",
+    "otherInfo": "RM Nº96/91"
+  },
+  {
+    "title": "Tecnicatura en Comercio Internacional",
+    "place": "Fundación ICBC",
+    "start": "Mar 2017",
+    "end": "Jul 2020",
+    "state": "graduada",
+    "otherInfo": "RSSGECP Nª154/15"
+  },
+  {
+    "title": "Secundario",
+    "place": "Instituto Formar Futuro",
+    "start": "Mar 2014",
+    "end": "Dic 2015",
+    "state": "graduada",
+    "otherInfo": "RM 1813/88 y RM 288/91"
+  }
+]

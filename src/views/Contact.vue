@@ -1,8 +1,7 @@
 <template>
     <section class="contact">
-        <h3>Contact me</h3>
-        <p>Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what
-            I like to do.</p>
+        <h3>{{ $t('hContact') }}</h3>
+        <p>{{ $t('pContact1') }}</p>
         <br />
         <div class="cards-group">
             <div class="card">
@@ -10,7 +9,7 @@
                     <a href="https://www.linkedin.com/in/meneghiniornella/" target="_blank"
                         aria-label="Go to your email and send me a message in a new windows">
                         LinkedIn <br />
-                        <span>Contact me</span>
+                        <span>{{ $t('hContact') }}</span>
                     </a>
                 </h4>
             </div>
@@ -19,7 +18,7 @@
                     <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank"
                         aria-label="Go to my Github profile and watch my repositories in a new windows">
                         GitHub <br />
-                        <span>See proyects</span>
+                        <span>{{ $t('pContact2') }}</span>
                     </a>
                 </h4>
             </div>
@@ -28,16 +27,16 @@
                     <a href="mailto:meneghini.ornella@gmail.com" target="_blank"
                         aria-label="Go to your email and send me a message in a new windows">
                         Email <br />
-                        <span>Send me an email</span>
+                        <span>{{ $t('pContact3') }}</span>
                     </a>
                 </h4>
             </div>
             <div class="card">
                 <h4>
                     <a href="https://codepen.io/meneghiniornella" target="_blank"
-                        aria-label="Go to watch my Codepen proyects in a new windows">
+                        aria-label="Go to watch my Codepen Projects in a new windows">
                         Codepen <br />
-                        <span>See little proyects</span>
+                        <span>{{ $t('pContact4') }}</span>
                     </a>
                 </h4>
             </div>

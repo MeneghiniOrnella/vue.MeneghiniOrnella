@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Portfolio Js",
+        "img": "portfolio.png",
+        "description": "Portafolio profesional",
+        "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
+        "urlSite":"https://meneghiniornella.github.io/portfolio/",
+        "skills": ["Javascript", "HTML", "SASS"]
+    },
+    {
+        "title": "Library App",
+        "img": "library_app.png",
+        "description": "Desarrollo de aplicación de listado de libros",
+        "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
+        "urlSite":"https://meneghiniornella.github.io/library_app/",
+        "skills": ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"]
+    },
+    {
+        "title": "Pokemon Game",
+        "img": "pokeAPI.png",
+        "description": "Juego Adivina el Pokémon. Fue creado usando PokeAPI y Vue.Js.",
+        "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
+        "urlSite":"",
+        "skills": ["API", "Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    {
+        "title": "Mascotas",
+        "img": "dog.jpg",
+        "description": "Proyecto en equipo de Codo a Codo Python 2021",
+        "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
+        "urlSite":"",
+        "skills": ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS"]
+    },
+    {
+        "title": "Gamedo",
+        "img": "gamedo.png",
+        "description": "Juego de opción múltiple realizado para una escuela de taekwondo",
+        "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
+        "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
+        "skills": ["HTML", "Javascript", "CSS"]
+    },
+    {
+        "title": "Juego de Rol",
+        "img": "logo.png",
+        "description": "Lo sentimos, esta aplicación está siendo creada",
+        "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
+        "urlSite":"",
+        "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    {
+        "title": "Administrador de Dinero",
+        "img": "logo.png",
+        "description": "Lo sentimos, esta aplicación está siendo creada",
+        "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
+        "urlSite":"",
+        "skills": ["Vue.Js", "Javascript", "HTML", "CSS", "Axios", "Pinia", "Vue-ChartJs", "Papa Parse 5"]
+    }
+]

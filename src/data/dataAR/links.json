@@ -2,21 +2,21 @@
     {
         "title": "email",
         "link": "mailto:meneghini.ornella@gmail.com",
-        "arialabel": "Go to your email and send me a message in a new windows"
+        "arialabel": "Ir a tu email y enviame un mensaje en una nueva pagina"
     },
     {
         "title": "LinkedIn",
         "link": "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
-        "arialabel": "Go to my LinkedIn profile and send me a message in a new windows"
+        "arialabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva pagina"
     },
     {
         "title": "Github",
         "link": "https://github.com/MeneghiniOrnella?tab=repositories",
-        "arialabel": "Go to my Github profile and watch my repositories in a new windows"
+        "arialabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva pagina"
     },
     {
         "title": "Codepen",
         "link": "https://codepen.io/meneghiniornella",
-        "arialabel": "Go to watch my Codepen proyects in a new windows"
+        "arialabel": "Ir a mis proyectos de Codepen en una nueva pagina"
     }
 ]

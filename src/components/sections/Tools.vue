@@ -1,6 +1,6 @@
 <template>
     <section class="skills">
-        <h3>Skills</h3>
+        <h3>{{ $t('hSkills') }}</h3>
         <div class="cards-group">
             <div v-for="tool in tools" class="tool">
                 <img :src="require(`@/assets/tools/${tool.img}`)" :title="tool.title" :alt="tool.title" />
