@@ -27,16 +27,3 @@ export default {
     }
 }
 </script>
-
-
-<style scoped>
-/* .card {
-    width: 80%;
-    padding: 0;
-    justify-self: center;
-    text-align: center;
-    background-color: #ffffff;
-    color: #000000;
-} */
-</style>
-

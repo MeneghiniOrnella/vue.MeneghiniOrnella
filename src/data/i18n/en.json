@@ -18,7 +18,7 @@
     "Home": "Home",
     "Resume": "Resume",
     "hWork": "Work Experience",
-    "languages.h": "Languages",
+    "hLanguages": "Languages",
     "languages": [
         {
             "h1": "Español",
@@ -29,7 +29,7 @@
             "p1": "Competencia Profesional"
         }
     ],
-    "education.h": "Education",
+    "hEducation": "Education",
     "educations": [
         {
             "title": "Programming Technique degree",

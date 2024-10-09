@@ -18,7 +18,7 @@
     "Home": "Inicio",
     "Resume": "Curriculum",
     "hWork": "Experiencia Laboral",
-    "languages.h": "Lenguajes",
+    "hLanguages": "Lenguajes",
     "languages": [
         {
             "h1": "Español",
@@ -29,7 +29,7 @@
             "p1": "Competencia Profesional"
         }
     ],
-    "education.h": "Educación",
+    "hEducation": "Educación",
     "educations": [
         {
             "title": "Tecnicatura en Programación",
@@ -88,9 +88,9 @@
     ],
     "projects": [
         {
-            "title": "Portfolio Js",
+            "title": "Portafolio Js",
             "img": "portfolio.png",
-            "description": "Professional portfolio",
+            "description": "Portafolio profesional",
             "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
             "urlSite": "https://meneghiniornella.github.io/portfolio/",
             "skills": [
@@ -100,9 +100,9 @@
             ]
         },
         {
-            "title": "Library App",
+            "title": "Biblioteca App",
             "img": "library_app.png",
-            "description": "Development of a Book List Application",
+            "description": "Desarrollo de una aplicación de listado de libros",
             "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
             "urlSite": "https://meneghiniornella.github.io/library_app/",
             "skills": [
@@ -115,9 +115,9 @@
             ]
         },
         {
-            "title": "Pokemon Game",
+            "title": "Juego de Pokemon",
             "img": "pokeAPI.png",
-            "description": "Guess the pokemon game.It was made using PokeAPI and Vue.Js.",
+            "description": "Esta realizado usando PokeApi y Vue.Js",
             "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
             "urlSite": "",
             "skills": [
@@ -131,7 +131,7 @@
         {
             "title": "Mascotas",
             "img": "dog.jpg",
-            "description": "Team proyect of Codo a Codo Python 2021",
+            "description": "Proyecto en equipo de Codo a Codo Python 2021",
             "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
             "urlSite": "",
             "skills": [
@@ -146,7 +146,7 @@
         {
             "title": "Gamedo",
             "img": "gamedo.png",
-            "description": "Multiple choice game made for a taekwondo school",
+            "description": "Juego de multiple choice realizado para una escuela de taekwondo",
             "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
             "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
             "skills": [
@@ -158,7 +158,7 @@
         {
             "title": "Role Game",
             "img": "logo.png",
-            "description": "Sorry! This application is being created",
+            "description": "Perdón! Esta aplicación esta siendo creada",
             "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
             "urlSite": "",
             "skills": [
@@ -171,7 +171,7 @@
         {
             "title": "Money Manager",
             "img": "logo.png",
-            "description": "Sorry! This application is being created",
+            "description": "Perdón! Esta aplicación esta siendo creada",
             "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
             "urlSite": "",
             "skills": [
@@ -186,7 +186,7 @@
             ]
         }
     ],
-    "work": [
+    "works": [
         {
             "title": "Asociada en Ingeniería de Software Personalizado",
             "place": "Accenture",

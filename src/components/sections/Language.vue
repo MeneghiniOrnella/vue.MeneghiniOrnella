@@ -1,6 +1,6 @@
 <template>
     <section class="languages">
-        <h3>{{ $t('languages.h') }}</h3>
+        <h3>{{ $t('hLanguages') }}</h3>
         <div class="cards-group">
             <div v-for="(language, index) in languages" :key="index" class="card">
                 <h4>{{ $t(`languages[${index}].h1`) }}</h4>

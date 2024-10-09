@@ -1,6 +1,6 @@
 <template>
     <div class="education">
-        <h3>{{ $t('education.h') }}</h3>
+        <h3>{{ $t('hEducation') }}</h3>
         <div class="cards-group">
             <div class="card" v-for="(education, index) in educations" :key="index">
                 <h4>{{ $t(`educations[${index}].title`) }}</h4>

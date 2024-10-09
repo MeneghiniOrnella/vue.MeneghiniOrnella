@@ -14,7 +14,6 @@ import About from '@/components/sections/About.vue'
 import Hour from '@/components/Hour.vue'
 import Tools from '@/components/sections/Tools.vue'
 import Projects from '@/components/sections/Projects.vue'
-import GithubInfo from '@/components/GithubInfo.vue'
 import Footer from '@/components/sections/Footer.vue'
 
 export default {
@@ -25,7 +24,6 @@ export default {
         Hour,
         Tools,
         Projects,
-        GithubInfo,
         Footer
     }
 }
