@@ -2,27 +2,28 @@
     <div class="work">
         <h3>{{ $t('hWork') }}</h3>
         <div class="cards-group">
-            <div class="card" v-for="{ title, place, start, end, otherInfo } in works" :key="works">
-                <h4>{{ title }}</h4>
-                <b class="place">{{ place }}</b>
-                <p>{{ start }} - {{ end }}</p>
+            <div class="card" v-for="(work, index) in works" :key="index">
+                <h4>{{ $t(`works[${index}].title`) }}</h4>
+                <b class="place">{{ $t(`works[${index}].place`) }}</b>
+                <p>{{ $t(`works[${index}].start`) }} - {{ $t(`works[${index}].end`) }}</p>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import data from "@/data/dataEN/work.json";
-
 export default {
     name: 'Work',
     props: {
         msg: String
     },
-    computed: {
-        works() {
-            return data.map((work) => work)
-        }
+    data() {
+        return {
+            works: [
+                { code: 'en' },
+                { code: 'es' },
+            ]
+        };
     }
 }
 </script>

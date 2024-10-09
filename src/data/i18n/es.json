@@ -1,0 +1,227 @@
+{
+    "languageBtn": "EN",
+    "contactBtn": "Contacto",
+    "about": {
+        "h": "Acerca de mi",
+        "p1": "En 2020 decidí cambiar el rumbo de mi carrera profesional y convertirme en Full Stack Developer. Terminé la carrera de Comercio Internacional porque tenía el objetivo y la perseverancia para terminarla. Estoy estudiando una carrera técnica. Actualmente, aprendo diferentes idiomas e información sobre el mundo IT.",
+        "p2": "Mi objetivo es convertirme en un programador profesional completo, por eso siempre busco cursos, vídeos y textos complementarios que me ayuden a crecer profesionalmente de forma constante."
+    },
+    "hProjects": "Proyectos",
+    "siteBtn": "Sitio",
+    "hSkills": "Habilidades",
+    "hContact": "Contactame",
+    "pContact1": "Hola! Estemos en contacto.",
+    "pContact2": "Ver proyectos",
+    "pContact3": "Enviame un mail",
+    "pContact4": "Ver pequeños proyectos",
+    "hError": "Error: Pagina no encontrada",
+    "Home": "Inicio",
+    "Resume": "Curriculum",
+    "hWork": "Experiencia Laboral",
+    "languages.h": "Lenguajes",
+    "languages": [
+        {
+            "h1": "Español",
+            "p1": "Competencia Nativa"
+        },
+        {
+            "h1": "Inglés",
+            "p1": "Competencia Profesional"
+        }
+    ],
+    "education.h": "Educación",
+    "educations": [
+        {
+            "title": "Tecnicatura en Programación",
+            "place": "Universidad CAECE",
+            "start": "Mar 2023",
+            "end": "futuro",
+            "state": "actualmente",
+            "otherInfo": "Python"
+        },
+        {
+            "title": "Licenciatura en Comercio Internacional",
+            "place": "Universidad de la Marina Mercante",
+            "start": "Sep 2020",
+            "end": "Dic 2021",
+            "state": "graduada",
+            "otherInfo": "RM Nº96/91"
+        },
+        {
+            "title": "Tecnicatura en Comercio Internacional",
+            "place": "Fundación ICBC",
+            "start": "Mar 2017",
+            "end": "Jul 2020",
+            "state": "graduada",
+            "otherInfo": "RSSGECP Nª154/15"
+        },
+        {
+            "title": "Secundario",
+            "place": "Instituto Formar Futuro",
+            "start": "Mar 2014",
+            "end": "Dic 2015",
+            "state": "graduada",
+            "otherInfo": "RM 1813/88 y RM 288/91"
+        }
+    ],
+    "links": [
+        {
+            "title": "email",
+            "link": "mailto:meneghini.ornella@gmail.com",
+            "arialabel": "Ir a tu email y enviame un mensaje en una nueva pagina"
+        },
+        {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
+            "arialabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva pagina"
+        },
+        {
+            "title": "Github",
+            "link": "https://github.com/MeneghiniOrnella?tab=repositories",
+            "arialabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva pagina"
+        },
+        {
+            "title": "Codepen",
+            "link": "https://codepen.io/meneghiniornella",
+            "arialabel": "Ir a mis proyectos de Codepen en una nueva pagina"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Portfolio Js",
+            "img": "portfolio.png",
+            "description": "Professional portfolio",
+            "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
+            "urlSite": "https://meneghiniornella.github.io/portfolio/",
+            "skills": [
+                "Javascript",
+                "HTML",
+                "SASS"
+            ]
+        },
+        {
+            "title": "Library App",
+            "img": "library_app.png",
+            "description": "Development of a Book List Application",
+            "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
+            "urlSite": "https://meneghiniornella.github.io/library_app/",
+            "skills": [
+                "React.Js",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "TailwindCSS",
+                "API"
+            ]
+        },
+        {
+            "title": "Pokemon Game",
+            "img": "pokeAPI.png",
+            "description": "Guess the pokemon game.It was made using PokeAPI and Vue.Js.",
+            "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
+            "urlSite": "",
+            "skills": [
+                "API",
+                "Vue.Js",
+                "Javascript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Mascotas",
+            "img": "dog.jpg",
+            "description": "Team proyect of Codo a Codo Python 2021",
+            "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
+            "urlSite": "",
+            "skills": [
+                "Python",
+                "Flask",
+                "MySQL",
+                "Bootstrap",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Gamedo",
+            "img": "gamedo.png",
+            "description": "Multiple choice game made for a taekwondo school",
+            "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
+            "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
+            "skills": [
+                "HTML",
+                "Javascript",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Role Game",
+            "img": "logo.png",
+            "description": "Sorry! This application is being created",
+            "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
+            "urlSite": "",
+            "skills": [
+                "Vue.Js",
+                "Javascript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Money Manager",
+            "img": "logo.png",
+            "description": "Sorry! This application is being created",
+            "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
+            "urlSite": "",
+            "skills": [
+                "Vue.Js",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Axios",
+                "Pinia",
+                "Vue-ChartJs",
+                "Papa Parse 5"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "title": "Asociada en Ingeniería de Software Personalizado",
+            "place": "Accenture",
+            "start": "Sep 2022",
+            "end": "actualmente",
+            "otherInfo": [
+                "Vue",
+                "SASS",
+                "Accessibility",
+                "Scrum"
+            ]
+        },
+        {
+            "title": "Contratada para Desarrollo de Software",
+            "place": "Accenture",
+            "start": "May 2022",
+            "end": "Ago 2022",
+            "otherInfo": [
+                "Vue",
+                "CSS",
+                "Scrum"
+            ]
+        },
+        {
+            "title": "Desarrolladora Full Stack",
+            "place": "ID for Ideas",
+            "start": "Dic 2021",
+            "end": "Abr 2022",
+            "otherInfo": [
+                "React",
+                "CSS",
+                "Scrum",
+                "Figma",
+                "Trello"
+            ]
+        }
+    ]
+}

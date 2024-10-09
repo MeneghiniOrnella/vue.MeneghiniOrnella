@@ -12,7 +12,7 @@ import {
 	faAward,
 	faCircleDown,
 	faFilePdf,
-	faLanguage
+	faLanguage,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub as fasGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(
@@ -28,17 +28,20 @@ library.add(
 );
 
 import { createI18n } from "vue-i18n";
-import en from "./i18n/en.json";
-import es from "./i18n/es.json";
+import en from "@/data/i18n/en.json";
+import es from "@/data/i18n/es.json";
 
-const messages = {
-	en: en,
-	es: es
-};
 const i18n = createI18n({
 	locale: "es",
 	fallbackLocale: "en",
-	messages,
+	messages: {
+		en,
+		es,
+	},
+	missing: (locale, key) => {
+		console.warn(`Missing translation for key: ${ key } in locale: ${ locale }`);
+		return key;
+	}
 });
 
 createApp(App)

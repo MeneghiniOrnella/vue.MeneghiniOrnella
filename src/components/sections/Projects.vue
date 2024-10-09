@@ -2,10 +2,10 @@
     <section class="projects">
         <h3>{{ $t('hProjects') }}</h3>
         <div class="cards-group">
-            <div class="card" v-for="project in projects" :key="project">
-                <h4 class="title">{{ project.title }}</h4>
+            <div class="card" v-for="(project, index) in projects" :key="index">
+                <h4 class="title">{{ $t(`projects[${index}].title`) }}</h4>
                 <!-- <img :src="getImgSrc(project.img)" :title="project.title" :alt="project.title" /> -->
-                <p class="otherInfo">{{ project.description }}</p>
+                <p class="otherInfo">{{ $t(`projects[${index}].description`) }}</p>
                 <div class="projectBtns">
                     <a target="_blank" :href="project.urlGithub"
                         aria-label="Go to Github this repository in a new window">GitHub</a>
@@ -18,17 +18,15 @@
 </template>
 
 <script>
-import data from "@/data/dataEN/projects.json";
-
-
 export default {
     name: 'Projects',
-    computed: {
-        projects() {
-            return data.map((project) => {
-                return project;
-            })
-        }
+    data() {
+        return {
+            projects: [
+                { code: 'en' },
+                { code: 'es' },
+            ]
+        };
     }
 }
 </script>
