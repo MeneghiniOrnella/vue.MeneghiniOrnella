@@ -25,13 +25,18 @@
         </nav>
         <router-view />
     </header>
+    <Footer />
 </template>
 
 <script>
 import { RouterLink } from 'vue-router';
+import Footer from './components/sections/Footer.vue';
 
 export default {
     name: 'App',
+    components: {
+        Footer
+    },
     methods: {
         downloadPdf() {
             const link = document.createElement('a');

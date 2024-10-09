@@ -5,15 +5,13 @@
         </button>
         <component :is="selected" class="tab" />
     </section>
-    <!-- <Language /> -->
-    <Footer />
+    <Language />
 </template>
 
 <script>
 import Education from "@/components/Education";
 import Work from "@/components/Work";
-// import Language from "@/components/sections/Language.vue";
-import Footer from "@/components/sections/Footer.vue";
+import Language from "@/components/sections/Language.vue";
 
 export default {
     data: function () {
@@ -25,8 +23,7 @@ export default {
     components: {
         Work,
         Education,
-        // Language,
-        Footer
+        Language,
     }
 };
 </script>
