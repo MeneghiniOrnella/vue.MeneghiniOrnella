@@ -4,7 +4,10 @@
             aria-label="Go to your email and send me a message in a new windows">{{ $t('contactBtn') }}</a>
         <a href="https://www.linkedin.com/in/meneghiniornella/?locale=en_US" target="_blank"
             aria-label="Go to my LinkedIn profile and send me a message in a new windows">Linkedin</a>
-        <!-- <a href="src/assets/Meneghini-cv.pdf" download="meneghini_ornella_cv">Download <font-awesome-icon icon="fa-solid fa-circle-down" /></a> -->
+        <a href="https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing" class="nav"
+            aria-label="Go to Curriculum Vitae in PDF" target="_blank">
+            <font-awesome-icon icon="fa-solid fa-file-pdf" /> CV
+        </a>
     </div>
 </template>
 

@@ -29,7 +29,6 @@
 </template>
 
 <script>
-import { RouterLink } from 'vue-router';
 import Footer from './components/sections/Footer.vue';
 
 export default {
@@ -38,15 +37,6 @@ export default {
         Footer
     },
     methods: {
-        downloadPdf() {
-            const link = document.createElement('a');
-            const cvPath = 'https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing';
-            link.href = cvPath;
-            link.setAttribute('download', 'MeneghiniOrnella-CV.pdf');
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        },
         toggleLanguage() {
             const currentLocale = this.$i18n.locale;
             this.$i18n.locale = currentLocale === "en" ? "es" : "en";
