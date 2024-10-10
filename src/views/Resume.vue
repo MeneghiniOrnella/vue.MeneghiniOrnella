@@ -14,7 +14,7 @@ import Work from "@/components/Work";
 import Language from "@/components/sections/Language.vue";
 
 export default {
-    data: function () {
+    data() {
         return {
             tabs: ["Work", "Education"],
             selected: "Work"

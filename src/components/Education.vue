@@ -12,15 +12,14 @@
 </template>
 
 <script>
+import data from '@/data/i18n/en.json';
+
 export default {
     name: 'Education',
-    data() {
-        return {
-            educations: [
-                { code: 'en' },
-                { code: 'es' },
-            ]
-        };
+    computed: {
+        educations() {
+            return data.educations.map((index) => index);
+        }
     }
 }
 </script>

@@ -156,7 +156,7 @@
             ]
         },
         {
-            "title": "Role Game",
+            "title": "Juego de rol",
             "img": "logo.png",
             "description": "Perdón! Esta aplicación esta siendo creada",
             "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "title": "Money Manager",
+            "title": "Gestor de plata",
             "img": "logo.png",
             "description": "Perdón! Esta aplicación esta siendo creada",
             "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",

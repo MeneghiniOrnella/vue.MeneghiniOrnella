@@ -6,6 +6,9 @@
                 <h4 class="title">{{ $t(`projects[${index}].title`) }}</h4>
                 <!-- <img :src="getImgSrc(project.img)" :title="project.title" :alt="project.title" /> -->
                 <p class="otherInfo">{{ $t(`projects[${index}].description`) }}</p>
+                <!-- <div class="otherInfo" v-for="(project, item) in items" :key="item">
+                    <p>{{ item.skills }}</p>
+                </div> -->
                 <div class="projectBtns">
                     <a target="_blank" :href="project.urlGithub"
                         aria-label="Go to Github this repository in a new window">GitHub</a>
@@ -18,15 +21,14 @@
 </template>
 
 <script>
+import data from '@/data/i18n/en.json';
+
 export default {
     name: 'Projects',
-    data() {
-        return {
-            projects: [
-                { code: 'en' },
-                { code: 'es' },
-            ]
-        };
+    computed: {
+        projects() {
+            return data.projects.map((index) => index);
+        }
     }
 }
 </script>

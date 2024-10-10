@@ -12,18 +12,17 @@
 </template>
 
 <script>
+import data from '@/data/i18n/en.json';
+
 export default {
     name: 'Work',
     props: {
         msg: String
     },
-    data() {
-        return {
-            works: [
-                { code: 'en' },
-                { code: 'es' },
-            ]
-        };
+    computed: {
+        works() {
+            return data.works.map((index) => index);
+        }
     }
 }
 </script>
