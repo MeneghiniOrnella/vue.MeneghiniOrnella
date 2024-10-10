@@ -6,9 +6,12 @@
                 <h4 class="title">{{ $t(`projects[${index}].title`) }}</h4>
                 <!-- <img :src="getImgSrc(project.img)" :title="project.title" :alt="project.title" /> -->
                 <p class="otherInfo">{{ $t(`projects[${index}].description`) }}</p>
-                <ul class="otherInfo" v-for="(skill, item) in project.item" :key="item">
-                    <li>{{ skill }}</li>
-                </ul>
+                <div class="skills">
+                    <ul v-for="(skill, itemIndex) in project.skills" :key="itemIndex">
+                        <li :style="{ 'background-color': this.colors[skill] }">{{ skill }}</li>
+                    </ul>
+                </div>
+                
                 <div class="projectBtns">
                     <a target="_blank" :href="project.urlGithub"
                         aria-label="Go to Github this repository in a new window">GitHub</a>
@@ -28,16 +31,30 @@ export default {
     data() {
         return {
             projects: [],
+            colors: {
+                "Javascript": "#f9e79f",
+                "HTML": "#f5b7b1",
+                "SASS": "#d7bde2",
+                "ReactJs": "#aed6f1",
+                "CSS": "#a9cce3",
+                "NodeJs": "#a9dfbf",
+                "TailwindCSS": "#a9cce3",
+                "API": "#f7dc6f",
+                "Vue.Js": "#a2d9ce",
+                "Python": "#85c1e9",
+                "Flask": "#c39bd3",
+                "MySQL": "#a9cce3",
+                "Bootstrap": "#d2b4de",
+                "Axios": "#cfd8dc",
+                "Pinia": "#f9e79f",
+                "Papa Parse 5": "#85c1e9",
+                "Vue-ChartJs": "#f5b7b1"
+            }
         }
     },
     created() {
         this.projects = data.projects;
-    }
-    // computed: {
-    //     projects() {
-    //         return data.projects.map((index) => index);
-    //     }
-    // }
+    },
 }
 </script>
 
@@ -54,5 +71,24 @@ export default {
 
 .inactive {
     display: none;
+}
+
+.skills {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    margin: .1rem;
+    padding: .1rem;
+}
+
+li {
+    margin: .2rem 0;
+    padding: .4rem;
+    background-color: beige;
+    border-radius: 6px;
+    font-size: .8rem;
 }
 </style>
