@@ -1,6 +1,5 @@
 <template>
     <nav :class="[{ scrolled: isScrolled }]">
-
         <ul :class="['icons-group', { 'is-active': isMenuOpen }]" role="menu">
             <!-- <router-link to="/" class="favicon" @click="closeMenu" aria-label="Go to home view">
                 <img src="@/../public/favicon/favicon-32x32.png" alt="OM" />
@@ -81,7 +80,6 @@ export default {
 
 <style scoped>
 nav {
-    /* padding: 1rem 2rem; */
     position: fixed;
     width: 100%;
     top: 0;
