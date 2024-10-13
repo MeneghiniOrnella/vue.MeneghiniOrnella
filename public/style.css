@@ -80,9 +80,6 @@ nav > div {
     position: sticky;
     top: 2em;
 }
-.favicon {
-    background: none;
-}
 
 .cards-group {
     display: flex;
@@ -150,15 +147,3 @@ nav > div {
         padding: .3em .5em;
     }
 }
-
-/* @media (min-width: 481px) and (max-width: 768px) {
-    *{
-        background-color: red;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    *{
-        background-color: red;
-    }
-} */

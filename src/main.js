@@ -13,6 +13,7 @@ import {
 	faCircleDown,
 	faFilePdf,
 	faLanguage,
+	faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub as fasGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(
@@ -24,7 +25,8 @@ library.add(
 	fasGithub,
 	faCircleDown,
 	faFilePdf,
-	faLanguage
+	faLanguage,
+	faBars,
 );
 
 import { createI18n } from "vue-i18n";
