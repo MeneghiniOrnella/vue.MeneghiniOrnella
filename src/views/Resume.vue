@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="resume">
         <button v-for="tab in tabs" :key="tab" @click="selected = tab;" :class="['tab-btn', { active: selected === tab }]">
             {{ tab }}
         </button>
@@ -29,12 +29,15 @@ export default {
 </script>
 
 <style>
+.resume {
+    margin-top: 5rem;
+}
+
 .tab-btn {
     display: inline-block;
     flex-direction: row;
     padding: 6px 10px;
     cursor: pointer;
-    margin-bottom: 1rem;
     border: none;
     outline: none;
     font-size: 1em;
