@@ -121,7 +121,7 @@ nav.scrolled {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: rgba(197, 225, 254, 0.3);
+        background-color: rgba(197, 225, 254, 0.8);
         transform: translateX(100%);
     }
 

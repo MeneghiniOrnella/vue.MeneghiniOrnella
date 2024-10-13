@@ -26,7 +26,7 @@ library.add(
 	faCircleDown,
 	faFilePdf,
 	faLanguage,
-	faBars,
+	faBars
 );
 
 import { createI18n } from "vue-i18n";
@@ -41,9 +41,9 @@ const i18n = createI18n({
 		es,
 	},
 	missing: (locale, key) => {
-		console.warn(`Missing translation for key: ${ key } in locale: ${ locale }`);
+		console.warn(`Missing translation for key: ${key} in locale: ${locale}`);
 		return key;
-	}
+	},
 });
 
 createApp(App)
