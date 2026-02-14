@@ -32,6 +32,7 @@ library.add(
 import { createI18n } from "vue-i18n";
 import en from "@/data/i18n/en.json";
 import es from "@/data/i18n/es.json";
+// import Tres from '@tresjs/core'
 
 const i18n = createI18n({
 	locale: "es",

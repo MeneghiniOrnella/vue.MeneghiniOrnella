@@ -10,16 +10,9 @@
     </section>
 </template>
 
-<script>
-export default {
-    name: 'Language',
-    data() {
-        return {
-            languages: [
-                { code: 'en' },
-                { code: 'es' },
-            ]
-        };
-    }
-}
+<script setup>
+const languages = [
+    { code: 'en' },
+    { code: 'es' },
+]
 </script>

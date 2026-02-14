@@ -1,31 +1,26 @@
 <template>
-    <section class="resume">
+    <!-- <section class="resume">
         <button v-for="tab in tabs" :key="tab" @click="selected = tab;" :class="['tab-btn', { active: selected === tab }]">
-            {{ tab }}
+            {{ tab.label }}
         </button>
-        <component :is="selected" class="tab" />
-    </section>
+        <component :is="selected.component" class="tab" />
+    </section> -->
     <Language />
 </template>
 
-<script>
-import Education from "@/components/Education";
-import Work from "@/components/Work";
-import Language from "@/components/sections/Language.vue";
+<script setup>
+// import Education from "@/components/Education.vue"
+// import Work from "@/components/Work.vue"
+import Language from "@/components/sections/Language.vue"
 
-export default {
-    data() {
-        return {
-            tabs: ["Work", "Education"],
-            selected: "Work"
-        };
-    },
-    components: {
-        Work,
-        Education,
-        Language,
-    }
-};
+// const tabs = ["Work", "Education"]
+// let selected = "Work"
+// const tabs = [
+//     { label: 'Work', component: Work },
+//     { label: 'Education', component: Education }
+// ]
+
+// const selected = ref(tabs[0])
 </script>
 
 <style>

@@ -51,13 +51,6 @@
 -->
 </template>
 
-<script>
-
-export default {
-    name: 'Home',
-}
-</script>
-
 <style>
 .contact .cards-group .card a {
     width: auto;

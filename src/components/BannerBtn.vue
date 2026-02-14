@@ -11,12 +11,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: 'BannerBtn',
-}
-</script>
-
 <style scoped>
 /* a {
     display: block;

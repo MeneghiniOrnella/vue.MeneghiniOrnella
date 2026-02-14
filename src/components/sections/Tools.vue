@@ -10,20 +10,13 @@
     </section>
 </template>
 
-<script>
-import data from "@/data/tools.json";
+<script setup>
+import { computed } from 'vue'
+import rawTools from '@/data/tools.json'
 
-export default {
-    name: 'Tools',
-    props: {
-        msg: String
-    },
-    computed: {
-        tools() {
-            return data.map((tool) => tool)
-        }
-    }
-}
+const tools = computed(() =>
+    rawTools.filter(tool => tool.active)
+)
 </script>
 
 <style scoped>

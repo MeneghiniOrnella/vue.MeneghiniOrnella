@@ -11,18 +11,12 @@
     </div>
 </template>
 
-<script>
-import data from '@/data/i18n/en.json';
+<script setup>
+import data from '@/data/i18n/en.json'
 
-export default {
-    name: 'Work',
-    props: {
-        msg: String
-    },
-    computed: {
-        works() {
-            return data.works.map((index) => index);
-        }
-    }
-}
+defineProps({
+    msg: String
+})
+
+const works = data.works.map(work => work)
 </script>

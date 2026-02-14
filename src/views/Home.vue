@@ -1,27 +1,18 @@
 <template>
     <div class="home">
+        <!-- <Luna /> -->
         <Banner />
         <About />
         <Tools />
-        <Projects />
+        <!-- <Projects /> -->
     </div>
 </template>
 
-<script>
+<script setup>
 import Banner from "@/components/sections/Banner.vue"
 import About from '@/components/sections/About.vue'
-import Hour from '@/components/Hour.vue'
+// import Hour from '@/components/Hour.vue'
 import Tools from '@/components/sections/Tools.vue'
 import Projects from '@/components/sections/Projects.vue'
-
-export default {
-    name: 'Home',
-    components: {
-        Banner,
-        About,
-        Hour,
-        Tools,
-        Projects,
-    }
-}
+// import Luna from '@/components/Luna.vue'
 </script>

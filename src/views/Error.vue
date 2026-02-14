@@ -7,12 +7,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: 'Error',
-}
-</script>
-
 <style scoped>
 .error {
     background: #dbc6e7;

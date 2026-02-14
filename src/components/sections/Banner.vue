@@ -6,15 +6,8 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import BannerBtn from '../BannerBtn.vue';
-
-export default {
-    name: 'Banner', 
-    components: {
-        BannerBtn,
-    }
-}
 </script>
 
 <style>

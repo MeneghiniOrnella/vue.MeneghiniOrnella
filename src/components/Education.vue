@@ -1,5 +1,5 @@
 <template>
-    <div class="education">
+    <!-- <div class="education">
         <h3>{{ $t('hEducation') }}</h3>
         <div class="cards-group">
             <div class="card" v-for="(education, index) in educations" :key="index">
@@ -8,20 +8,14 @@
                 <p>{{ $t(`educations[${index}].start`) }} - {{ $t(`educations[${index}].end`) }} <span class="educationState">| {{ $t(`educations[${index}].state`) }} | {{ $t(`educations[${index}].otherInfo`) }}</span></p>
             </div>
         </div>
-    </div>
+    </div> -->
+    <h1>educacion</h1>
 </template>
 
-<script>
-import data from '@/data/i18n/en.json';
+<script setup>
+import data from '@/data/i18n/en.json'
 
-export default {
-    name: 'Education',
-    computed: {
-        educations() {
-            return data.educations.map((index) => index);
-        }
-    }
-}
+const educations = data.educations
 </script>
 
 <style scoped>
