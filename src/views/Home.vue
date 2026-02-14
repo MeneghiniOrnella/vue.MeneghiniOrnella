@@ -4,7 +4,7 @@
         <Banner />
         <About />
         <Tools />
-        <!-- <Projects /> -->
+        <Projects />
     </div>
 </template>
 

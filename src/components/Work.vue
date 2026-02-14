@@ -14,9 +14,5 @@
 <script setup>
 import data from '@/data/i18n/en.json'
 
-defineProps({
-    msg: String
-})
-
-const works = data.works.map(work => work)
+const works = data.works
 </script>
