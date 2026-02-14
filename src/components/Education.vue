@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="education">
+    <div class="education">
         <h3>{{ $t('hEducation') }}</h3>
         <div class="cards-group">
             <div class="card" v-for="(education, index) in educations" :key="index">
@@ -8,8 +8,7 @@
                 <p>{{ $t(`educations[${index}].start`) }} - {{ $t(`educations[${index}].end`) }} <span class="educationState">| {{ $t(`educations[${index}].state`) }} | {{ $t(`educations[${index}].otherInfo`) }}</span></p>
             </div>
         </div>
-    </div> -->
-    <h1>educacion</h1>
+    </div>
 </template>
 
 <script setup>

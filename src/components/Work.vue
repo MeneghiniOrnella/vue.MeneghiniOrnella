@@ -9,7 +9,7 @@
             </div>
         </div>
     </div>
-</template>
+</template> 
 
 <script setup>
 import data from '@/data/i18n/en.json'

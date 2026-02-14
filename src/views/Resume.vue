@@ -5,12 +5,14 @@
         </button>
         <component :is="selected.component" class="tab" />
     </section> -->
+    <Work />
+    <Education />
     <Language />
 </template>
 
 <script setup>
-// import Education from "@/components/Education.vue"
-// import Work from "@/components/Work.vue"
+import Education from "@/components/Education.vue"
+import Work from "@/components/Work.vue"
 import Language from "@/components/sections/Language.vue"
 
 // const tabs = ["Work", "Education"]
