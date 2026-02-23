@@ -4,7 +4,7 @@
         <Banner />
         <About />
         <Tools />
-        <Projects />
+        <!-- <Projects /> funciona pero debo mejorar los proyectos como para mostrar -->
     </div>
 </template>
 
@@ -13,6 +13,6 @@ import Banner from "@/components/sections/Banner.vue"
 import About from '@/components/sections/About.vue'
 // import Hour from '@/components/Hour.vue'
 import Tools from '@/components/sections/Tools.vue'
-import Projects from '@/components/sections/Projects.vue'
+// import Projects from '@/components/sections/Projects.vue'
 // import Luna from '@/components/Luna.vue'
 </script>

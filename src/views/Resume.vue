@@ -5,24 +5,26 @@
         </button>
         <component :is="selected.component" class="tab" />
     </section> -->
-    <Work />
-    <Education />
+    <TimelineSection
+        :items="works"
+        i18nBase="works"
+        titleKey="hWork"
+        sectionClass="work"
+        />
+    <TimelineSection
+        :items="educations"
+        i18nBase="educations"
+        titleKey="hEducation"
+        sectionClass="education"
+        />
     <Language />
 </template>
 
 <script setup>
-import Education from "@/components/Education.vue"
-import Work from "@/components/Work.vue"
 import Language from "@/components/sections/Language.vue"
-
-// const tabs = ["Work", "Education"]
-// let selected = "Work"
-// const tabs = [
-//     { label: 'Work', component: Work },
-//     { label: 'Education', component: Education }
-// ]
-
-// const selected = ref(tabs[0])
+import TimelineSection from "@/components/TemplateCardGroups.vue"
+import { works } from '@/data/works'
+import { educations } from '@/data/educations'
 </script>
 
 <style>

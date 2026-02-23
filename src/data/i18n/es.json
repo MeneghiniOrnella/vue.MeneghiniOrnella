@@ -27,67 +27,56 @@
         {
             "h1": "Inglés",
             "p1": "Competencia Profesional"
+        },
+        {
+            "h1": "Italiano",
+            "p1": "Competencia Básica"
+        },
+        {
+            "h1": "Portugués",
+            "p1": "Competencia Básica"
         }
     ],
     "hEducation": "Educación",
-    "educations": [
-        {
+    "educations": {
+        "ucaece": {
             "title": "Tecnicatura en Programación",
             "place": "Universidad CAECE",
-            "start": "Mar 2023",
-            "end": "Dic 2025",
-            "state": "graduada",
-            "otherInfo": "Python, Java, SQL, PHP, HTML, CSS, JavaScript"
+            "state": "graduada"
         },
-        {
+        "udemm": {
             "title": "Licenciatura en Comercio Internacional",
             "place": "Universidad de la Marina Mercante",
-            "start": "Sep 2020",
-            "end": "Dic 2021",
-            "state": "graduada",
-            "otherInfo": "RM Nº96/91"
+            "state": "graduada"
         },
-        {
+        "icbc": {
             "title": "Tecnicatura en Comercio Internacional",
             "place": "Fundación ICBC",
             "start": "Mar 2017",
             "end": "Jul 2020",
-            "state": "graduada",
-            "otherInfo": "RSSGECP Nª154/15"
+            "state": "graduada"
         },
-        {
+        "iff": {
             "title": "Secundario",
             "place": "Instituto Formar Futuro",
-            "start": "Mar 2014",
-            "end": "Dic 2015",
-            "state": "graduada",
-            "otherInfo": "RM 1813/88 y RM 288/91"
+            "state": "graduada"
         }
-    ],
+    },
     "links": [
         {
-            "title": "email",
-            "link": "mailto:meneghini.ornella@gmail.com",
             "arialabel": "Ir a tu email y enviame un mensaje en una nueva pagina"
         },
         {
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
             "arialabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva pagina"
         },
         {
-            "title": "Github",
-            "link": "https://github.com/MeneghiniOrnella?tab=repositories",
             "arialabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva pagina"
         },
         {
-            "title": "Codepen",
-            "link": "https://codepen.io/meneghiniornella",
             "arialabel": "Ir a mis proyectos de Codepen en una nueva pagina"
         }
     ],
     "projects": [
-        
         {
             "title": "Biblioteca App",
             "img": "library_app.png",
@@ -187,42 +176,21 @@
             ]
         }
     ],
-    "works": [
-        {
+    "works": {
+        "acc2": {
             "title": "Asociada en Ingeniería de Software Personalizado",
-            "place": "Accenture",
-            "start": "Sep 2022",
             "end": "actualmente",
             "otherInfo": [
-                "Vue",
-                "SASS",
                 "Accessibility",
                 "Scrum"
             ]
         },
-        {
-            "title": "Contratada para Desarrollo de Software",
-            "place": "Accenture",
-            "start": "May 2022",
-            "end": "Ago 2022",
-            "otherInfo": [
-                "Vue",
-                "CSS",
-                "Scrum"
-            ]
+        "acc1": {
+            "title": "Contratada para Desarrollo de Software"
         },
-        {
+        "id4ideas": {
             "title": "Desarrolladora Full Stack",
-            "place": "ID for Ideas",
-            "start": "Dic 2021",
-            "end": "Abr 2022",
-            "otherInfo": [
-                "React",
-                "CSS",
-                "Scrum",
-                "Figma",
-                "Trello"
-            ]
+            "otherInfo": "freelance"
         }
-    ]
+    }
 }

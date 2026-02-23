@@ -21,43 +21,39 @@
         {
             "h1": "English",
             "p1": "Professional competence"
+        },
+        {
+            "h1": "Italian",
+            "p1": "Basic competence"
+        },
+        {
+            "h1": "Portuguese",
+            "p1": "Basic competence"
         }
     ],
     "hEducation": "Education",
-    "educations": [
-        {
+    "educations": {
+        "ucaece": {
             "title": "Programming Technique degree",
             "place": "CAECE University",
-            "start": "Mar 2023",
-            "end": "Dic 2025",
-            "state": "graduated",
-            "otherInfo": "Python, Java, SQL, PHP, HTML, CSS, JavaScript"
+            "state": "graduated"
         },
-        {
+        "udemm": {
             "title": "International Trade Degree",
             "place": "University of the Marina Mercante",
-            "start": "Sep 2020",
-            "end": "Dec 2021",
-            "state": "graduated",
-            "otherInfo": "RM Nº96/91"
+            "state": "graduated"
         },
-        {
+        "icbc": {
             "title": "International Trade Technique Degree",
             "place": "ICBC Fundation",
-            "start": "Mar 2017",
-            "end": "Jul 2020",
-            "state": "graduated",
-            "otherInfo": "RSSGECP Nª154/15"
+            "state": "graduated"
         },
-        {
+        "iff": {
             "title": "Bachelor",
             "place": "Formar Futuro Institute",
-            "start": "Mar 2014",
-            "end": "Dec 2015",
-            "state": "graduated",
-            "otherInfo": "RM 1813/88 y RM 288/91"
+            "state": "graduated"
         }
-    ],
+    },
     "hContact": "Contact me",
     "pContact1": "Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.",
     "pContact2": "See Projects",
@@ -65,23 +61,15 @@
     "pContact4": "See little Projects",
     "links": [
         {
-            "title": "email",
-            "link": "mailto:meneghini.ornella@gmail.com",
             "arialabel": "Go to your email and send me a message in a new window"
         },
         {
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
             "arialabel": "Go to my LinkedIn profile and send me a message in a new window"
         },
         {
-            "title": "Github",
-            "link": "https://github.com/MeneghiniOrnella?tab=repositories",
             "arialabel": "Go to my Github profile and watch my repositories in a new window"
         },
         {
-            "title": "Codepen",
-            "link": "https://codepen.io/meneghiniornella",
             "arialabel": "Go to watch my Codepen Projects in a new window"
         }
     ],
@@ -187,42 +175,18 @@
             ]
         }
     ],
-    "works": [
-        {
+    "works": {
+        "acc2": {
             "title": "Custom Software Engineering Associate",
-            "place": "Accenture",
-            "start": "Sep 2022",
-            "end": "currently",
-            "otherInfo": [
-                "Vue",
-                "SASS",
-                "Accessibility",
-                "Scrum"
-            ]
+            "otherInfo": "Accessibility, Scrum"
         },
-        {
+        "acc1": {
             "title": "Software Development Contractor",
-            "place": "Accenture",
-            "start": "May 2022",
-            "end": "Aug 2022",
-            "otherInfo": [
-                "Vue",
-                "CSS",
-                "Scrum"
-            ]
+            "otherInfo": ""
         },
-        {
+        "id4ideas": {
             "title": "Full Stack Developer",
-            "place": "ID for Ideas",
-            "start": "Dec 2021",
-            "end": "Abr 2022",
-            "otherInfo": [
-                "React",
-                "CSS",
-                "Scrum",
-                "Figma",
-                "Trello"
-            ]
+            "otherInfo": "freelance"
         }
-    ]
+    }
 }

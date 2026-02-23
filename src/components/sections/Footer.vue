@@ -2,26 +2,55 @@
     <div class="footer">
         <hr />
         <div class="last-line">
-            <a href="https://meneghiniornella.netlify.app/" class="copy" aria-label="Go to home">
-                Ornella Meneghini &copy 2024
+            <a class="copy"
+                :href="homeLink.href" 
+                :aria-label="homeLink.ariaLabel"
+            >
+                {{ homeLink.name }} &copy; {{ year }}
             </a>
             <div class="icons-group footer">
-                <a href="mailto:meneghini.ornella@gmail.com" target="_blank"
-                    aria-label="Go to your email and send me a message in a new windows">
-                    <font-awesome-icon icon="fa-solid fa-envelope" />
-                </a>
-                <a href="https://www.linkedin.com/in/meneghiniornella/?locale=en_US" target="_blank"
-                    aria-label="Go to my LinkedIn profile and send me a message in a new windows">
-                    in
-                </a>
-                <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank"
-                    aria-label="Go to my Github profile and watch my repositories in a new windows">
-                    <font-awesome-icon icon="fa-brands fa-github" />
+                <a v-for="(social, index) in socials"
+                    :key="index"
+                    :href="social.href"
+                    target="_blank"
+                    rel="noopener"
+                    :aria-label="social.ariaLabel"
+                >
+                    <font-awesome-icon
+                        v-if="social.icon"
+                        :icon="social.icon"
+                    />
                 </a>
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+const year = new Date().getFullYear()
+const homeLink = {
+    href: 'https://meneghiniornella.netlify.app/',
+    ariaLabel: 'Go to home',
+    name: 'Ornella Meneghini'
+}
+const socials = [
+    {
+        href: 'https://mailto:meneghini.ornella@gmail.com',
+        ariaLabel: 'Go to my email and send me a message in a new windows',
+        icon: ['fas', 'envelope']
+    },
+    {
+        href: "https://www.linkedin.com/in/meneghiniornella/?locale=en_US",
+        ariaLabel: 'Go to my LinkedIn profile and send me a message in a new windows',
+        icon: ['fab', 'linkedin-in']
+    },
+    {
+        href: "https://github.com/MeneghiniOrnella?tab=repositories",
+        ariaLabel: 'Go to my Github profile and watch my repositories in a new windows',
+        icon: ['fab', 'github']
+    }
+]
+</script>
 
 <style>
 .footer a {

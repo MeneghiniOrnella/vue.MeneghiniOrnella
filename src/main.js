@@ -15,13 +15,17 @@ import {
 	faLanguage,
 	faBars,
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub as fasGithub } from "@fortawesome/free-brands-svg-icons";
+import { 
+	faLinkedin,
+	faGithub as fasGithub
+} from "@fortawesome/free-brands-svg-icons";
 library.add(
 	faHouse,
 	faBriefcase,
 	faMessage,
 	faEnvelope,
 	faAward,
+	faLinkedin,
 	fasGithub,
 	faCircleDown,
 	faFilePdf,

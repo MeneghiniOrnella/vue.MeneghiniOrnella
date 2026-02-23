@@ -1,18 +1,30 @@
 <template>
-    <div class="work">
-        <h3>{{ $t('hWork') }}</h3>
+    <section class="work">
+        <h3>{{ t('hWork') }}</h3>
         <div class="cards-group">
-            <div class="card" v-for="(work, index) in works" :key="index">
-                <h4>{{ $t(`works[${index}].title`) }}</h4>
-                <b class="place">{{ $t(`works[${index}].place`) }}</b>
-                <p>{{ $t(`works[${index}].start`) }} - {{ $t(`works[${index}].end`) }}</p>
-            </div>
+            <article
+                v-for="work in visibleWorks"
+                :key="work.id"
+                class="card"
+            >
+                <h4>{{ t(`works.${work.id}.title`) }}</h4>
+                <b class="place">{{ work.place }}</b>
+                <p>{{ work.start }} – {{ work.end }}
+                    <span>{{ t(`works.${work.id}.otherInfo`) }}</span>
+                </p>
+            </article>
         </div>
-    </div>
-</template> 
+    </section>
+</template>
 
 <script setup>
-import data from '@/data/i18n/en.json'
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { works } from '@/data/works'
 
-const works = data.works
+const { t } = useI18n({ useScope: 'global' })
+
+const visibleWorks = computed(() =>
+    works.filter(work => work.active !== false)
+)
 </script>
