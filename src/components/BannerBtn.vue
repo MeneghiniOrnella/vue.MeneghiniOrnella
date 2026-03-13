@@ -1,32 +1,42 @@
 <template>
     <div class="icons-group contact-home">
-        <a href="mailto:meneghini.ornella@gmail.com" target="_blank"
-            aria-label="Go to your email and send me a message in a new windows">{{ $t('contactBtn') }}</a>
-        <a href="https://www.linkedin.com/in/meneghiniornella/?locale=en_US" target="_blank"
-            aria-label="Go to my LinkedIn profile and send me a message in a new windows">Linkedin</a>
-        <a href="https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing" class="nav"
-            aria-label="Go to Curriculum Vitae in PDF" target="_blank">
-            <font-awesome-icon icon="fa-solid fa-file-pdf" /> CV
+        <a
+            v-for="btn in btns"
+            :key="btn.id"
+            :href="btn.href"
+            target="_blank"
+            :aria-label="btn.ariaLabel"
+        >
+            <font-awesome-icon :icon="btn.icon" /> {{ btn.label }}
         </a>
     </div>
 </template>
 
-<style scoped>
-/* a {
-    display: block;
-    padding: 1em 1.4em;
-    font-weight: 600;
-    color: #000;
-    text-decoration: none;
-    background-color: var(--secondary);
-    margin: 0 auto;
-    cursor: pointer;
-    border: none;
-    border-radius: 50px;
-}
-a:focus,
-a:hover {
-    color: var(--principal);
-    transform: scale(1.2);
-} */
-</style>
+<script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+const btns = [
+    {
+        id: 'email',
+        href: 'https://mailto:meneghini.ornella@gmail.com',
+        icon: 'fa-solid fa-envelope',
+        label: 'Email',
+        ariaLabel: t('emailBtnAriaLabel')
+    },
+    {
+        id: 'linkedin',
+        href: 'https://www.linkedin.com/in/meneghiniornella/?locale=en_US',
+        icon: 'fa-brands fa-linkedin',
+        label: 'LinkedIn',
+        ariaLabel: t('linkedinBtnAriaLabel')
+    },
+    {
+        id: 'cv',
+        href: 'https://drive.google.com/file/d/1lpqaTZXPFQF9jfN1VNM_Pmrk7gIlgYsy/view?usp=sharing',
+        icon: 'fa-solid fa-file-pdf',
+        label: 'CV',
+        ariaLabel: t('cvBtnAriaLabel')
+    }
+]
+</script>

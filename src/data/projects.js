@@ -7,7 +7,7 @@ export const projects = [
         end: 'currently',
         skills: [
             "Vue",
-            "SASS" 
+            "SASS"
         ]
     }
 ]

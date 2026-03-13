@@ -11,7 +11,7 @@
                         <li :style="{ 'background-color': skillColors[skill] }">{{ skill }}</li>
                     </ul>
                 </div>
-                
+
                 <div class="projectBtns">
                     <a target="_blank" :href="project.urlGithub"
                         aria-label="Go to Github this repository in a new window">GitHub</a>
@@ -40,28 +40,5 @@ const projects = data.projects;
 .projectBtns {
     display: flex;
     flex-direction: row;
-}
-
-.inactive {
-    display: none;
-}
-
-.skills {
-    margin-bottom: 2rem;
-}
-
-ul {
-    list-style: none;
-    display: inline-block;
-    margin: .1rem;
-    padding: .1rem;
-}
-
-li {
-    margin: .2rem 0;
-    padding: .4rem;
-    background-color: beige;
-    border-radius: 6px;
-    font-size: .8rem;
 }
 </style>

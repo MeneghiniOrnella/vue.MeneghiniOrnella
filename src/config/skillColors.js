@@ -15,5 +15,10 @@ export const skillColors = {
     "Axios": "#cfd8dc",
     "Pinia": "#f9e79f",
     "Papa Parse 5": "#85c1e9",
-    "Vue-ChartJs": "#f5b7b1"
+    "Vue-ChartJs": "#f5b7b1",
+    "GitHub Copilot": "#cdc2e7",
+    "Scrum": "#eeeeee",
+    ".NET": "#b08de1",
+    "Wordpress": "#8db2dd",
+    "Java": "#eac796"
 }

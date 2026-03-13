@@ -4,21 +4,33 @@ export const educations = [
         active: true,
         start: '03/2023',
         end: '12/2025',
-        otherInfo: "Python, Java, SQL, PHP, HTML, CSS, JavaScript"
+        skills: [
+            "PHP",
+            "Python",
+            "Java",
+            "MySQL",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         id: "udemm",
         active: true,
         start: '07/2020',
         end: '12/2021',
-        otherInfo: "RM Nº96/91"
+        skills: [
+            "🇧🇷"
+        ]
     },
     {
         id: "icbc",
         active: false,
         start: '03/2017',
         end: '06/2020',
-        otherInfo: "RSSGECP Nª154/15"
+        skills: [
+            "🇬🇧"
+        ]
+
     },
     {
         id: "iff",

@@ -3,16 +3,24 @@ export const works = [
         id: "acc2",
         active: true,
         place: "Accenture",
-        start: '09/2022',
+        start: '05/2022',
         end: 'currently',
         skills: [
-            "Vue",
-            "SASS" 
+            "Vue.Js",
+            "NodeJs",
+            "SASS",
+            "CSS",
+            "HTML",
+            ".NET",
+            "Wordpress",
+            "Bootstrap",
+            "GitHub Copilot",
+            "Scrum" 
         ]
     },
     {
         id: "acc1",
-        active: true,
+        active: false,
         place: "Accenture",
         start: '05/2022',
         end: '09/2022',

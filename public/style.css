@@ -24,7 +24,6 @@ h2 {
     font-size: 2.6rem;
 }
 h3 {
-    color: var(--principal);
     font-size: 2.4rem;
     color: #05003d;
 }
@@ -44,7 +43,23 @@ b {
 b {
     font-weight: 800;
 }
-a,
+span {
+    color: var(--dark-grey);
+    font-size: 1.4rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: var(--principal);
+}
+button {
+    cursor: pointer;
+    border: none;
+    font: inherit;
+}
+/* a,
 button {
     display: block;
     padding: 1em 1.4em;
@@ -62,17 +77,13 @@ a:focus,
 a:hover {
     color: var(--principal);
     transform: scale(1.2);
-}
+} */
 
 li {
     display: inline-block;
     list-style: none;
 }
 
-span {
-    color: var(--dark-grey);
-    font-size: 1.5rem;
-}
 
 nav > div {
     display: flex;
@@ -159,4 +170,27 @@ nav {
     .contact p {
         padding: .3em .5em;
     }
+}
+
+.inactive {
+    display: none;
+}
+
+.skills {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    margin: .1rem;
+    padding: .1rem;
+}
+
+li {
+    margin: .2rem .4rem;
+    padding: .4rem;
+    background-color: beige;
+    border-radius: 6px;
+    font-size: .8rem;
 }

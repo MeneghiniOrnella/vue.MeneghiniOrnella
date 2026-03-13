@@ -14,7 +14,10 @@
                 <p class="period">
                     <time>{{ item.start }} – {{ item.end }}</time>
                 </p>
-                <ul v-if="item.meta && item.meta.length > 0" class="meta">
+                <ul v-if="item.meta?.lenght || item.skills?.length > 0" class="meta">
+                    <li v-for="skill in item.skills" :key="skill" class="skill" :style="{ backgroundColor: skillColors[skill] || '#ffffff' }">{{ skill }}</li>
+                </ul>
+                <ul>
                     <li v-for="(text, i) in item.meta" :key="i">{{ text }}</li>
                 </ul>
             </article>
@@ -25,12 +28,13 @@
 <script setup>
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { skillColors } from '@/config/skillColors'
 
 const props = defineProps({
-  items: { type: Array, required: true },
-  i18nBase: { type: String, required: true },
-  titleKey: { type: String, required: true },
-  sectionClass: { type: String, default: '' }
+    items: { type: Array, required: true },
+    i18nBase: { type: String, required: true },
+    titleKey: { type: String, required: true },
+    sectionClass: { type: String, default: '' }
 })
 
 const { t, te } = useI18n({ useScope: 'global' })

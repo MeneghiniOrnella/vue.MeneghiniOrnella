@@ -29,3 +29,6 @@ lerna-debug.log*
 
 # Vitest
 __screenshots__/
+
+
+future.md
