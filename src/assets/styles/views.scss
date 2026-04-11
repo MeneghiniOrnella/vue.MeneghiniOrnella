@@ -1,0 +1,112 @@
+@use "./base.scss" as *;
+
+/* CONTACT */
+.contact {
+    .contact-home a {
+        border-radius: 50px;
+        font-weight: 600;
+        color: #000;
+        background-color: var(--color-secondary);
+        cursor: pointer;
+        text-decoration: none;
+        border: none;
+        width: 20rem;
+    }
+}
+
+/* ERROR */
+.error {
+    background: #dbc6e7;
+    margin: 3em;
+    padding: 2em;
+    border-radius: 16px;
+
+    h1 {
+        animation: error-rotate 2s linear 0.5s 4 normal forwards running;
+    }
+
+    img {
+        margin-bottom: 2.5em;
+
+        &:hover {
+            animation: error-rotate 2s linear 0.5s 4 normal forwards running;
+        }
+    }
+}
+
+@keyframes error-rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    40% {
+        transform: rotate(10deg);
+        color: #3f3f3f;
+        scale: 1.1;
+    }
+
+    80% {
+        transform: rotate(-10deg);
+        color: #050022;
+        scale: 1.1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* HOME nothing */
+
+/* RESUME */
+.tabs {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .tab-btn {
+        padding: 0.75rem 1.5rem;
+        cursor: pointer;
+        border: 2px solid transparent;
+        background: transparent;
+        font-size: 1em;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        color: var(--color-text);
+
+        &:hover {
+            background: rgba(195, 0, 195, 0.1);
+            border-color: rgb(195, 0, 195);
+        }
+
+        &.active {
+            background: rgb(195, 0, 195);
+            color: white;
+            border-color: rgb(195, 0, 195);
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(195, 0, 195, 0.3);
+        }
+    }
+}
+
+.tool {
+    margin: 0.6em 1.4em;
+}
+
+.tool-img {
+    height: 5em;
+    width: 5em;
+    //filter: drop-shadow(0 0 20px #fffeee);
+    &:hover{
+        animation: rotate-tool 2s linear 0.5s 4 normal forwards running;
+        -webkit-animation: rotate-tool 2s linear 0.5s 4 normal forwards running;
+    }
+}
+
+/* [data-theme="dark"] {
+    .tool-img {
+        background: #626262;
+        border-radius: 50px;
+    }
+} */

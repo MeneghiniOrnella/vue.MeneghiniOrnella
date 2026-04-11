@@ -1,0 +1,52 @@
+@use "./base.scss" as *;
+
+/* SECTIONS/ABOUT */
+.about-text {
+    margin: 4rem;
+}
+
+/* SECTIONS/BANNER */
+.banner {
+    padding: 3em 0;
+    background: rgb(197, 225, 254);
+    background: linear-gradient(0deg, rgba(197, 225, 254, 0.2049194677871149) 0%, rgba(150, 72, 170, 0.804359243697479) 51%, rgba(197, 225, 254, 0.19931722689075626) 100%);
+    //background: #9e1c1c url('@/assets/projects/dog.jpg') no-repeat center center fixed;
+}
+
+/* SECTIONS/LANGUAGE nothing */
+/* SECTIONS/LUNA nothing */
+
+/* SECTIONS/TOOLS */
+img {
+    margin: 0.6em 1.4em;
+    height: 5em;
+    width: 5em;
+
+    &:hover {
+        animation: rotate-tool 2s linear 0.5s 4 normal forwards running;
+        -webkit-animation: rotate-tool 2s linear 0.5s 4 normal forwards running;
+    }
+}
+
+@keyframes rotate-tool {
+    from {
+        transform: rotate(0);
+        filter: hue-rotate(50deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* HOME/PROJECTS */
+.projects img {
+    width: 20em;
+    height: 10em;
+}
+
+.projectBtns {
+    display: flex;
+    flex-direction: row;
+}

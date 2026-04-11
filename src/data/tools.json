@@ -1,62 +1,67 @@
 [
   {
-    "title":    "HTML",
-    "img":      "icons8-html-5.svg",
+    "title": "Javascript",
+    "img": "icons8-javascript.svg",
     "category": "language"
   },
   {
-    "title":    "CSS",
-    "img":      "icons8-css3.svg",
-    "category": "language"
-  },
-  {
-    "title":    "Javascript",
-    "img":      "icons8-javascript.svg",
-    "category": "language"
-  },
-  {
-    "title":    "React.Js",
-    "img":      "icons8-react.svg",
+    "title": "React.Js",
+    "img": "icons8-react.svg",
     "category": "tool"
   },
   {
-    "title":    "Vue.Js",
-    "img":      "logo.png",
+    "title": "Vue.Js",
+    "img": "icons8-vue-js.svg",
     "category": "tool"
   },
   {
-    "title":    "MySQL",
-    "img":      "icons8-my-sql.svg",
+    "title": "AWS",
+    "img": "wikipedia-aws.svg",
+    "category": "tool"
+  },
+  {
+    "title": "MySQL",
+    "img": "icons8-my-sql.svg",
     "category": "database"
   },
   {
-    "title":    "Wordpress",
-    "img":      "icons8-wordpress.svg",
+    "title": "Wordpress",
+    "img": "icons8-wordpress.svg",
     "category": "tool"
   },
   {
-    "title":    "PHP",
-    "img":      "icons8-php.svg",
+    "title": "PHP",
+    "img": "icons8-php.svg",
     "category": "language"
   },
   {
-    "title":    "Tailwind CSS",
-    "img":      "icons8-tailwind-css.svg",
+    "title": "Tailwind CSS",
+    "img": "icons8-tailwind-css.svg",
     "category": "tool"
   },
   {
-    "title":    "SASS",
-    "img":      "icons8-sass.svg",
+    "title": "SASS",
+    "img": "icons8-sass.svg",
     "category": "tool"
   },
   {
-    "title":    "Bootstrap",
-    "img":      "icons8-bootstrap.svg",
+    "title": "Bootstrap",
+    "img": "icons8-bootstrap.svg",
     "category": "tool"
   },
   {
-    "title":    "Python",
-    "img":      "icons8-python.svg",
+    "title": "Python",
+    "img": "icons8-python.svg",
+    "category": "language"
+  },
+  {
+    "title": "HTML",
+    "img": "icons8-html-5.svg",
+    "category": "language"
+  },
+  {
+    "title": "CSS",
+    "img": "icons8-css3.svg",
     "category": "language"
   }
 ]
