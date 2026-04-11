@@ -1,196 +1,173 @@
 {
-    "languageBtn": "EN",
-    "contactBtn": "Contacto",
-    "about": {
-        "h": "Acerca de mi",
-        "p1": "Soy técnica en programación. A su vez, aprendo diferentes lenguajes e información sobre el mundo de la tecnologìa.",
-        "p2": "Mi meta es convertirme en programadora profesional lo más completa posible. Por eso busco siempre cursos, videos y textos complementarios que me ayuden a crecer profesionalmente de manera constante. Si quieres conocer más de mí o necesitas más información, no dudes en contactarme. Me encuentro abierta a afrontar nuevos desafíos laborales."
+  "emailBtnAriaLabel": "Enviame un email",
+  "cvBtnAriaLabel": "Descargar CV",
+  "linkedinBtnAriaLabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva ventana",
+  "githubBtnAriaLabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva ventana",
+  "codepenBtnAriaLabel": "Ir a mis proyectos de Codepen en una nueva ventana",
+  "Contact": "Contacto",
+  "languageBtn": "EN",
+  "contactBtn": "Contacto",
+  "about": {
+    "h": "Acerca de mi",
+    "p1": "Soy técnica en programación. A su vez, aprendo diferentes lenguajes e información sobre el mundo de la tecnologìa.",
+    "p2": "Mi meta es convertirme en programadora profesional lo más completa posible. Por eso busco siempre cursos, videos y textos complementarios que me ayuden a crecer profesionalmente de manera constante. Si quieres conocer más de mí o necesitas más información, no dudes en contactarme. Me encuentro abierta a afrontar nuevos desafíos laborales."
+  },
+  "hProjects": "Proyectos",
+  "siteBtn": "Sitio",
+  "hTools": "Habilidades",
+  "hContact": "Contactame",
+
+  "hError": "Error: Pagina no encontrada",
+  "Home": "Inicio",
+  "Resume": "Curriculum",
+  "hWork": "Experiencia Laboral",
+  "hLanguages": "Lenguajes",
+  "languages": [
+    {
+      "h1": "Español",
+      "p1": "Competencia Nativa"
     },
-    "hProjects": "Proyectos",
-    "siteBtn": "Sitio",
-    "hSkills": "Habilidades",
-    "hContact": "Contactame",
-    "pContact1": "Hola! Estemos en contacto.",
-    "pContact2": "Ver proyectos",
-    "pContact3": "Enviame un mail",
-    "pContact4": "Ver pequeños proyectos",
-    "hError": "Error: Pagina no encontrada",
-    "Home": "Inicio",
-    "Resume": "Curriculum",
-    "hWork": "Experiencia Laboral",
-    "hLanguages": "Lenguajes",
-    "languages": [
-        {
-            "h1": "Español",
-            "p1": "Competencia Nativa"
-        },
-        {
-            "h1": "Inglés",
-            "p1": "Competencia Profesional"
-        },
-        {
-            "h1": "Italiano",
-            "p1": "Competencia Básica"
-        },
-        {
-            "h1": "Portugués",
-            "p1": "Competencia Básica"
-        }
-    ],
-    "hEducation": "Educación",
-    "educations": {
-        "ucaece": {
-            "title": "Tecnicatura en Programación",
-            "place": "Universidad CAECE",
-            "state": "graduada"
-        },
-        "udemm": {
-            "title": "Licenciatura en Comercio Internacional",
-            "place": "Universidad de la Marina Mercante",
-            "state": "graduada"
-        },
-        "icbc": {
-            "title": "Tecnicatura en Comercio Internacional",
-            "place": "Fundación ICBC",
-            "start": "Mar 2017",
-            "end": "Jul 2020",
-            "state": "graduada"
-        },
-        "iff": {
-            "title": "Secundario",
-            "place": "Instituto Formar Futuro",
-            "state": "graduada"
-        }
+    {
+      "h1": "Inglés",
+      "p1": "Competencia Profesional"
     },
-    "links": [
-        {
-            "arialabel": "Ir a tu email y enviame un mensaje en una nueva pagina"
-        },
-        {
-            "arialabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva pagina"
-        },
-        {
-            "arialabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva pagina"
-        },
-        {
-            "arialabel": "Ir a mis proyectos de Codepen en una nueva pagina"
-        }
-    ],
-    "projects": [
-        {
-            "title": "Biblioteca App",
-            "img": "library_app.png",
-            "description": "Desarrollo de una aplicación de listado de libros",
-            "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
-            "urlSite": "https://meneghiniornella.github.io/library_app/",
-            "skills": [
-                "React.Js",
-                "Javascript",
-                "HTML",
-                "CSS",
-                "TailwindCSS",
-                "API"
-            ]
-        },
-        {
-            "title": "Juego de Pokemon",
-            "img": "pokeAPI.png",
-            "description": "Esta realizado usando PokeApi y Vue.Js",
-            "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
-            "urlSite": "",
-            "skills": [
-                "API",
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Mascotas",
-            "img": "dog.jpg",
-            "description": "Proyecto en equipo de Codo a Codo Python 2021",
-            "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
-            "urlSite": "",
-            "skills": [
-                "Python",
-                "Flask",
-                "MySQL",
-                "Bootstrap",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Gamedo",
-            "img": "gamedo.png",
-            "description": "Juego de multiple choice realizado para una escuela de taekwondo",
-            "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
-            "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
-            "skills": [
-                "HTML",
-                "Javascript",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Otro portafolio",
-            "img": "portfolio.png",
-            "description": "Portafolio profesional",
-            "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
-            "urlSite": "https://meneghiniornella.github.io/portfolio/",
-            "skills": [
-                "Javascript",
-                "HTML",
-                "SASS"
-            ]
-        },
-        {
-            "title": "Juego de rol",
-            "img": "logo.png",
-            "description": "Perdón! Esta aplicación esta siendo creada",
-            "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
-            "urlSite": "",
-            "skills": [
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Gestor de plata",
-            "img": "logo.png",
-            "description": "Perdón! Esta aplicación esta siendo creada",
-            "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
-            "urlSite": "",
-            "skills": [
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS",
-                "Axios",
-                "Pinia",
-                "Vue-ChartJs",
-                "Papa Parse 5"
-            ]
-        }
-    ],
-    "works": {
-        "acc2": {
-            "title": "Asociada en Ingeniería de Software Personalizado",
-            "end": "actualmente",
-            "otherInfo": [
-                "Accessibility",
-                "Scrum"
-            ]
-        },
-        "acc1": {
-            "title": "Contratada para Desarrollo de Software"
-        },
-        "id4ideas": {
-            "title": "Desarrolladora Full Stack",
-            "otherInfo": "freelance"
-        }
+    {
+      "h1": "Italiano",
+      "p1": "Competencia Básica"
+    },
+    {
+      "h1": "Portugués",
+      "p1": "Competencia Básica"
     }
+  ],
+  "hEducation": "Educación",
+  "educations": {
+    "ucaece": {
+      "title": "Tecnicatura en Programación",
+      "place": "Universidad CAECE",
+      "state": "graduada"
+    },
+    "udemm": {
+      "title": "Licenciatura en Comercio Internacional",
+      "place": "Universidad de la Marina Mercante",
+      "state": "graduada"
+    },
+    "icbc": {
+      "title": "Tecnicatura en Comercio Internacional",
+      "place": "Fundación ICBC",
+      "start": "Mar 2017",
+      "end": "Jul 2020",
+      "state": "graduada"
+    },
+    "iff": {
+      "title": "Secundario",
+      "place": "Instituto Formar Futuro",
+      "state": "graduada"
+    }
+  },
+  "pContact1": "Hola! Estemos en contacto.",
+  "contacts": {
+    "email": {
+      "text": "Enviame un mail",
+      "arialabel": "Ir a tu email y enviame un mensaje en una nueva pagina"
+    },
+    "linkedin": {
+      "text": "Ver mi perfil de LinkedIn",
+      "arialabel": "Ir a mi perfil de LinkedIn y enviame un mensaje en una nueva pagina"
+    },
+    "github": {
+      "text": "Ver proyectos",
+      "arialabel": "Ir a mi perfil de Github y mira mis repositorios en una nueva pagina"
+    },
+    "codepen": {
+      "text": "Ver pequeños proyectos",
+      "arialabel": "Ir a mis proyectos de Codepen en una nueva pagina"
+    }
+  },
+  "projects": {
+    "library_app": {
+      "title": "Biblioteca App",
+      "img": "library_app.png",
+      "description": "Desarrollo de una aplicación de listado de libros",
+      "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
+      "urlSite": "https://meneghiniornella.github.io/library_app/",
+      "skills": ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"]
+    },
+    "pokemon_game": {
+      "title": "Juego de Pokemon",
+      "img": "pokeAPI.png",
+      "description": "Esta realizado usando PokeApi y Vue.Js",
+      "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
+      "urlSite": "",
+      "skills": ["API", "Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    "pets": {
+      "title": "Mascotas",
+      "img": "dog.jpg",
+      "description": "Proyecto en equipo de Codo a Codo Python 2021",
+      "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
+      "urlSite": "",
+      "skills": ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS"]
+    },
+    "gamedo": {
+      "title": "Gamedo",
+      "img": "gamedo.png",
+      "description": "Juego de multiple choice realizado para una escuela de taekwondo",
+      "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
+      "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
+      "skills": ["HTML", "Javascript", "CSS"]
+    },
+    "other_portfolio": {
+      "title": "Otro portafolio",
+      "img": "portfolio.png",
+      "description": "Portafolio profesional",
+      "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
+      "urlSite": "https://meneghiniornella.github.io/portfolio/",
+      "skills": ["Javascript", "HTML", "SASS"]
+    },
+    "role_game": {
+      "title": "Juego de rol",
+      "img": "logo.png",
+      "description": "Perdón! Esta aplicación esta siendo creada",
+      "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
+      "urlSite": "",
+      "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    "money_manager": {
+      "title": "Gestor de plata",
+      "img": "logo.png",
+      "description": "Perdón! Esta aplicación esta siendo creada",
+      "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
+      "urlSite": "",
+      "skills": [
+        "Vue.Js",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Axios",
+        "Pinia",
+        "Vue-ChartJs",
+        "Papa Parse 5"
+      ]
+    }
+  },
+  "works": {
+    "acc2": {
+      "title": "Asociada en Ingeniería de Software Personalizado",
+      "end": "actualmente",
+      "skills": [
+        "Accessibility",
+        "Scrum"
+      ]
+    },
+    "acc1": {
+      "title": "Contratada para Desarrollo de Software"
+    },
+    "id4ideas": {
+      "title": "Desarrolladora Full Stack",
+      "skills": [
+        "freelance"
+      ]
+    }
+  }
 }

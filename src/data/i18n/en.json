@@ -1,191 +1,163 @@
 {
-    "languageBtn": "AR",
-    "contactBtn": "Contact",
-    "about": {
-        "h": "About",
-        "p1": "In 2020, I decided to change the course of my career to a Full Stack Developer. I finished a degree in international trade because I had the objective and the perseverence to finish it. I am studying a technical degree. Currently, I learn different lenguages and information about the IT World.",
-        "p2": "My objective is becoming a complete professional programmer. That is why I always look for courses, videos and complementary texts which help me to grow up professionally in a constant way."
+  "emailBtnAriaLabel": "Send me an email",
+  "cvBtnAriaLabel": "Download CV",
+  "linkedinBtnAriaLabel": "Go to my LinkedIn profile and send me a message in a new window",
+  "githubBtnAriaLabel": "Go to my Github profile and watch my repositories in a new window",
+  "codepenBtnAriaLabel": "Go to watch my Codepen Projects in a new window",
+  "Contact": "Contact",
+  "languageBtn": "AR",
+  "contactBtn": "Contact",
+  "about": {
+    "h": "About",
+    "p1": "In 2020, I decided to change the course of my career to a Full Stack Developer. I finished a degree in international trade because I had the objective and the perseverence to finish it. I am studying a technical degree. Currently, I learn different lenguages and information about the IT World.",
+    "p2": "My objective is becoming a complete professional programmer. That is why I always look for courses, videos and complementary texts which help me to grow up professionally in a constant way."
+  },
+  "siteBtn": "Site",
+  "hTools": "Skills",
+  "hError": "Error: Page not found",
+  "Home": "Home",
+  "Resume": "Resume",
+  "hWork": "Work Experience",
+  "hLanguages": "Languages",
+  "languages": [
+    {
+      "h1": "Spanish",
+      "p1": "Native competence"
     },
-    "siteBtn": "Site",
-    "hSkills": "Skills",
-    "hError": "Error: Page not found",
-    "Home": "Home",
-    "Resume": "Resume",
-    "hWork": "Work Experience",
-    "hLanguages": "Languages",
-    "languages": [
-        {
-            "h1": "Spanish",
-            "p1": "Native competence"
-        },
-        {
-            "h1": "English",
-            "p1": "Professional competence"
-        },
-        {
-            "h1": "Italian",
-            "p1": "Basic competence"
-        },
-        {
-            "h1": "Portuguese",
-            "p1": "Basic competence"
-        }
-    ],
-    "hEducation": "Education",
-    "educations": {
-        "ucaece": {
-            "title": "Programming Technique degree",
-            "place": "CAECE University",
-            "state": "graduated"
-        },
-        "udemm": {
-            "title": "International Trade Degree",
-            "place": "University of the Marina Mercante",
-            "state": "graduated"
-        },
-        "icbc": {
-            "title": "International Trade Technique Degree",
-            "place": "ICBC Fundation",
-            "state": "graduated"
-        },
-        "iff": {
-            "title": "Bachelor",
-            "place": "Formar Futuro Institute",
-            "state": "graduated"
-        }
+    {
+      "h1": "English",
+      "p1": "Professional competence"
     },
-    "hContact": "Contact me",
-    "pContact1": "Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.",
-    "pContact2": "See Projects",
-    "pContact3": "Send me an email",
-    "pContact4": "See little Projects",
-    "links": [
-        {
-            "arialabel": "Go to your email and send me a message in a new window"
-        },
-        {
-            "arialabel": "Go to my LinkedIn profile and send me a message in a new window"
-        },
-        {
-            "arialabel": "Go to my Github profile and watch my repositories in a new window"
-        },
-        {
-            "arialabel": "Go to watch my Codepen Projects in a new window"
-        }
-    ],
-    "hProjects": "Projects",
-    "projects": [
-        
-        {
-            "title": "Library App",
-            "img": "library_app.png",
-            "description": "Development of a Book List Application",
-            "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
-            "urlSite": "https://meneghiniornella.github.io/library_app/",
-            "skills": [
-                "React.Js",
-                "Javascript",
-                "HTML",
-                "CSS",
-                "TailwindCSS",
-                "API"
-            ]
-        },
-        {
-            "title": "Pokemon Game",
-            "img": "pokeAPI.png",
-            "description": "Guess the pokemon game.It was made using PokeAPI and Vue.Js.",
-            "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
-            "urlSite": "",
-            "skills": [
-                "API",
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Pets",
-            "img": "dog.jpg",
-            "description": "Team proyect of Codo a Codo Python 2021",
-            "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
-            "urlSite": "",
-            "skills": [
-                "Python",
-                "Flask",
-                "MySQL",
-                "Bootstrap",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Gamedo",
-            "img": "gamedo.png",
-            "description": "Multiple choice game made for a taekwondo school",
-            "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
-            "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
-            "skills": [
-                "HTML",
-                "Javascript",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Other portfolio",
-            "img": "portfolio.png",
-            "description": "Professional portfolio",
-            "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
-            "urlSite": "https://meneghiniornella.github.io/portfolio/",
-            "skills": [
-                "Javascript",
-                "HTML",
-                "SASS"
-            ]
-        },
-        {
-            "title": "Role Game",
-            "img": "logo.png",
-            "description": "Sorry! This application is being created",
-            "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
-            "urlSite": "",
-            "skills": [
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Money Manager",
-            "img": "logo.png",
-            "description": "Sorry! This application is being created",
-            "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
-            "urlSite": "",
-            "skills": [
-                "Vue.Js",
-                "Javascript",
-                "HTML",
-                "CSS",
-                "Axios",
-                "Pinia",
-                "Vue-ChartJs",
-                "Papa Parse 5"
-            ]
-        }
-    ],
-    "works": {
-        "acc2": {
-            "title": "Custom Software Engineering Associate"
-        },
-        "acc1": {
-            "title": "Software Development Contractor",
-            "otherInfo": ""
-        },
-        "id4ideas": {
-            "title": "Full Stack Developer",
-            "otherInfo": "freelance"
-        }
+    {
+      "h1": "Italian",
+      "p1": "Basic competence"
+    },
+    {
+      "h1": "Portuguese",
+      "p1": "Basic competence"
     }
+  ],
+  "hEducation": "Education",
+  "educations": {
+    "ucaece": {
+      "title": "Programming Technique degree",
+      "place": "CAECE University",
+      "state": "graduated"
+    },
+    "udemm": {
+      "title": "International Trade Degree",
+      "place": "University of the Marina Mercante",
+      "state": "graduated"
+    },
+    "icbc": {
+      "title": "International Trade Technique Degree",
+      "place": "ICBC Fundation",
+      "state": "graduated"
+    },
+    "iff": {
+      "title": "Bachelor",
+      "place": "Formar Futuro Institute",
+      "state": "graduated"
+    }
+  },
+  "hContact": "Contact me",
+  "pContact1": "Hi! Get in touch! You could send me a message on these pages, that contain more information about me and what I like to do.",
+  "contacts": {
+    "email": {
+      "text": "Send me an email",
+      "arialabel": "Go to your email and send me a message in a new window"
+    },
+    "linkedin": {
+      "text": "See my LinkedIn profile",
+      "arialabel": "Go to my LinkedIn profile and send me a message in a new window"
+    },
+    "github": {
+      "text": "See Projects",
+      "arialabel": "Go to my Github profile and watch my repositories in a new window"
+    },
+    "codepen": {
+      "text": "See little Projects",
+      "arialabel": "Go to watch my Codepen Projects in a new window"
+    }
+  },
+  "hProjects": "Projects",
+  "projects": {
+    "library_app": {
+      "title": "Library App",
+      "img": "library_app.png",
+      "description": "Development of a Book List Application",
+      "urlGithub": "https://github.com/MeneghiniOrnella/library_app.git",
+      "urlSite": "https://meneghiniornella.github.io/library_app/",
+      "skills": ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"]
+    },
+    "pokemon_game": {
+      "title": "Pokemon Game",
+      "img": "pokeAPI.png",
+      "description": "Guess the pokemon game.It was made using PokeAPI and Vue.Js.",
+      "urlGithub": "https://github.com/MeneghiniOrnella/pokemon-game",
+      "urlSite": "",
+      "skills": ["API", "Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    "pets": {
+      "title": "Pets",
+      "img": "dog.jpg",
+      "description": "Team proyect of Codo a Codo Python 2021",
+      "urlGithub": "https://github.com/MeneghiniOrnella/mascotas",
+      "urlSite": "",
+      "skills": ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS"]
+    },
+    "gamedo": {
+      "title": "Gamedo",
+      "img": "gamedo.png",
+      "description": "Multiple choice game made for a taekwondo school",
+      "urlGithub": "https://github.com/MeneghiniOrnella/tkd-gamedo",
+      "urlSite": "https://meneghiniornella.github.io/tkd-gamedo/",
+      "skills": ["HTML", "Javascript", "CSS"]
+    },
+    "other_portfolio": {
+      "title": "Other portfolio",
+      "img": "portfolio.png",
+      "description": "Professional portfolio",
+      "urlGithub": "https://github.com/MeneghiniOrnella/portfolio",
+      "urlSite": "https://meneghiniornella.github.io/portfolio/",
+      "skills": ["Javascript", "HTML", "SASS"]
+    },
+    "role_game": {
+      "title": "Role Game",
+      "img": "logo.png",
+      "description": "Sorry! This application is being created",
+      "urlGithub": "https://github.com/MeneghiniOrnella/Vue.Js-role-game.git",
+      "urlSite": "",
+      "skills": ["Vue.Js", "Javascript", "HTML", "CSS"]
+    },
+    "money_manager": {
+      "title": "Money Manager",
+      "img": "logo.png",
+      "description": "Sorry! This application is being created",
+      "urlGithub": "https://github.com/MeneghiniOrnella/vue-money_manager",
+      "urlSite": "",
+      "skills": [
+        "Vue.Js",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Axios",
+        "Pinia",
+        "Vue-ChartJs",
+        "Papa Parse 5"
+      ]
+    }
+  },
+  "works": {
+    "acc2": {
+      "title": "Custom Software Engineering Associate"
+    },
+    "acc1": {
+      "title": "Software Development Contractor"
+    },
+    "id4ideas": {
+      "title": "Full Stack Developer",
+      "skills": ["freelance"]
+    }
+  }
 }

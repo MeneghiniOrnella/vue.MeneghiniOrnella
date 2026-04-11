@@ -5,7 +5,7 @@
 ## Technologies used
 
 - [Vue.Js](https://vuejs.org)
-- CSS
+- SASS
 - Javascript
 
 ## Project setup
