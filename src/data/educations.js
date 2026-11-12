@@ -1,5 +1,12 @@
 export const educations = [
   {
+    id: "ucaece2",
+    active: true,
+    start: "",
+    end: "",
+    skills: ["education", "university", "computer science"],
+  },
+  {
     id: "ucaece",
     active: true,
     start: "03/2023",

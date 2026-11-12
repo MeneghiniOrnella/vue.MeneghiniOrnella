@@ -1,5 +1,15 @@
 export const works = [
   {
+    id: "facu",
+    active: true,
+    place: "Universidad CAECE",
+    start: "08/2026",
+    end: "currently",
+    skills: [
+      "Adscripta del profesor de Introduccion a la Informatica"
+    ],
+  },
+  {
     id: "acc2",
     active: true,
     place: "Accenture",
@@ -13,6 +23,7 @@ export const works = [
       "HTML",
       ".NET",
       "Wordpress",
+      "PHP"
       "Bootstrap",
       "AWS",
       "GitHub Copilot",

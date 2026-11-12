@@ -42,6 +42,11 @@
   ],
   "hEducation": "Educación",
   "educations": {
+    "ucaece2": {
+      "title": "Diplomatura en Habilidades Académicas",
+      "place": "Universidad CAECE",
+      "state": "no comenzada aún"
+    },
     "ucaece": {
       "title": "Tecnicatura en Programación",
       "place": "Universidad CAECE",

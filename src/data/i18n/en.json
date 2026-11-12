@@ -9,8 +9,8 @@
   "contactBtn": "Contact",
   "about": {
     "h": "About",
-    "p1": "In 2020, I decided to change the course of my career to a Full Stack Developer. I finished a degree in international trade because I had the objective and the perseverence to finish it. I am studying a technical degree. Currently, I learn different lenguages and information about the IT World.",
-    "p2": "My objective is becoming a complete professional programmer. That is why I always look for courses, videos and complementary texts which help me to grow up professionally in a constant way."
+    "p1": "I am a programming technician. At the same time, I am learning various programming languages ​​and gaining knowledge about the world of technology.",
+    "p2": "My goal is to become as well-rounded a professional programmer as possible. For this reason, I am constantly seeking out courses, videos, and supplementary materials to support my ongoing professional growth. If you would like to learn more about me or need further information, please feel free to reach out. I am open to taking on new professional challenges."
   },
   "siteBtn": "Site",
   "hTools": "Skills",
@@ -39,6 +39,11 @@
   ],
   "hEducation": "Education",
   "educations": {
+    "ucaece2": {
+      "title": "Diploma in Academic Skills",
+      "place": "CAECE University",
+      "state": "not started yet"
+    },
     "ucaece": {
       "title": "Programming Technique degree",
       "place": "CAECE University",

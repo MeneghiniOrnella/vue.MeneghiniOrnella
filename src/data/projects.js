@@ -7,7 +7,16 @@ export const projects = [
     description: "Development of a Book List Application",
     urlGithub: "https://github.com/MeneghiniOrnella/library_app.git",
     urlSite: "https://meneghiniornella.github.io/library_app/",
-    skills: ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"],
+    skills: ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API", "do as a team"],
+  },
+  {
+    id: "check_in_website",
+    active: true,
+    title: "Check In",
+    description: "A vacation rental and lodging catalog built on a custom, modular WordPress architecture. Designed for high performance and mobile speed, it features dynamic country and category filters alongside tailored property cards for hotels, temporary apartments, and holiday stays.",
+    urlGithub: "",
+    urlSite: "",
+    skills: ["Wordpress", "PHP", "HTML", "CSS", "Bootstrap", "ACF", "Elementor", "Guntenberg", "my security plugin"],
   },
   {
     id: "pokemon_game",
@@ -27,7 +36,7 @@ export const projects = [
     description: "Team proyect of Codo a Codo Python 2021",
     urlGithub: "https://github.com/MeneghiniOrnella/mascotas",
     urlSite: "",
-    skills: ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS"],
+    skills: ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS", "do as a team"],
   },
   {
     id: "gamedo",
@@ -77,5 +86,15 @@ export const projects = [
       "Vue-ChartJs",
       "Papa Parse 5",
     ],
+  },
+  {
+    id: "tkd_kombat_game",
+    active: true,
+    title: "TKD Kombat Game",
+    img: "logo.png",
+    description: "Sorry! This application is being created",
+    urlGithub: "",
+    urlSite: "",
+    skills: ["Unity", "C#", "HTML", "CSS"]
   },
 ];
