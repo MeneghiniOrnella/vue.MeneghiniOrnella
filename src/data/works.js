@@ -23,7 +23,7 @@ export const works = [
       "HTML",
       ".NET",
       "Wordpress",
-      "PHP"
+      "PHP",
       "Bootstrap",
       "AWS",
       "GitHub Copilot",
