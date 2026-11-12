@@ -95,6 +95,14 @@
       "urlSite": "https://meneghiniornella.github.io/library_app/",
       "skills": ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API"]
     },
+    "check_in_website": {
+      "title": "Check In",
+      "img": "",
+      "description": "A vacation rental and lodging catalog built on a custom, modular WordPress architecture. Designed for high performance and mobile speed, it features dynamic country and category filters alongside tailored property cards for hotels, temporary apartments, and holiday stays.",
+      "urlGithub": "",
+      "urlSite": "",
+      "skills": ["Wordpress", "PHP", "HTML", "CSS", "Bootstrap", "ACF", "Elementor", "Guntenberg", "my security plugin"]
+    }
     "pokemon_game": {
       "title": "Pokemon Game",
       "img": "pokeAPI.png",
