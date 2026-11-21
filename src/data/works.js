@@ -4,9 +4,12 @@ export const works = [
     active: true,
     place: "Universidad CAECE",
     start: "08/2026",
-    end: "currently",
+    end: "07/2027",
     skills: [
-      "Adscripta del profesor de Introduccion a la Informatica"
+      "Volunteering",
+      "Education", 
+      "University", 
+      "Computer Science"
     ],
   },
   {
@@ -28,6 +31,7 @@ export const works = [
       "AWS",
       "GitHub Copilot",
       "Scrum",
+      "Accessibility"
     ],
   },
   {
@@ -44,6 +48,12 @@ export const works = [
     active: false,
     start: "12/2021",
     end: "05/2022",
-    skills: ["React.Js", "CSS", "Scrum", "Figma", "Trello"],
+    skills: [
+      "React.Js", 
+      "CSS", 
+      "Scrum", 
+      "Figma", 
+      "Trello"
+    ],
   },
 ];

@@ -162,22 +162,17 @@
     }
   },
   "works": {
+    "facu": {
+      "title": "Adscripta del profesor de Introducción a la Informática"
+    },
     "acc2": {
-      "title": "Asociada en Ingeniería de Software Personalizado",
-      "end": "actualmente",
-      "skills": [
-        "Accessibility",
-        "Scrum"
-      ]
+      "title": "Asociada en Ingeniería de Software Personalizado"
     },
     "acc1": {
       "title": "Contratada para Desarrollo de Software"
     },
     "id4ideas": {
-      "title": "Desarrolladora Full Stack",
-      "skills": [
-        "freelance"
-      ]
+      "title": "Desarrolladora Full Stack"
     }
   }
 }

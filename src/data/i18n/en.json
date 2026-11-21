@@ -162,6 +162,9 @@
     }
   },
   "works": {
+    "facu": {
+      "title": "Assistant of the professor of Introduction to Informatics"
+    },
     "acc2": {
       "title": "Custom Software Engineering Associate"
     },
