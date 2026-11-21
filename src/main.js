@@ -42,7 +42,7 @@ import Tres from "@tresjs/core";
 const i18n = createI18n({
   legacy: false,
   locale: "es",
-  fallbackLocale: "en",
+  fallbackLocale: "es",
   messages: {
     en,
     es,

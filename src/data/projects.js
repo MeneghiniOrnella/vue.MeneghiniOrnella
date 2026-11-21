@@ -7,7 +7,7 @@ export const projects = [
     description: "Development of a Book List Application",
     urlGithub: "https://github.com/MeneghiniOrnella/library_app.git",
     urlSite: "https://meneghiniornella.github.io/library_app/",
-    skills: ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API", "do as a team"],
+    skills: ["React.Js", "Javascript", "HTML", "CSS", "TailwindCSS", "API", "Do as a Team"],
   },
   {
     id: "check_in_website",
@@ -36,7 +36,7 @@ export const projects = [
     description: "Team proyect of Codo a Codo Python 2021",
     urlGithub: "https://github.com/MeneghiniOrnella/mascotas",
     urlSite: "",
-    skills: ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS", "do as a team"],
+    skills: ["Python", "Flask", "MySQL", "Bootstrap", "HTML", "CSS", "Do as a Team"],
   },
   {
     id: "gamedo",
@@ -89,7 +89,7 @@ export const projects = [
   },
   {
     id: "tkd_kombat_game",
-    active: true,
+    active: false,
     title: "TKD Kombat Game",
     img: "logo.png",
     description: "Sorry! This application is being created",

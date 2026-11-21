@@ -2,9 +2,9 @@ export const educations = [
   {
     id: "ucaece2",
     active: true,
-    start: "",
-    end: "",
-    skills: ["education", "university", "computer science"],
+    start: "2027",
+    end: "...",
+    skills: ["Education", "University", "Computer Science"],
   },
   {
     id: "ucaece",
@@ -22,7 +22,7 @@ export const educations = [
   },
   {
     id: "icbc",
-    active: false,
+    active: true,
     start: "03/2017",
     end: "06/2020",
     skills: ["🇬🇧", "Microsoft Office"],
@@ -33,17 +33,5 @@ export const educations = [
     start: "03/2014",
     end: "12/2015",
     skills: ["RM 1813/88 / RM 288/91", "🇬🇧", "Microsoft Office"],
-  },
-  {
-    id: "tkd2",
-    active: false,
-    start: "03/2007",
-    end: "12/2023",
-  },
-  {
-    id: "tkd1",
-    active: false,
-    start: "03/2007",
-    end: "12/2014",
-  },
+  }
 ];

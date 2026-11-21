@@ -21,4 +21,14 @@ export const skillColors = {
 	".NET": "#b08de1",
 	"Wordpress": "#8db2dd",
 	"Java": "#eac796",
+	"Gemini": "#f5b7b1",
+	"Claude": "#eac781",
+	"Computer Science": "#b07ef9",
+	"University": "#f5c1e1",
+	"Education": "#cac2ff",
+	"my security plugin": "#dddddd",
+	"ACF": "#f5b7b1",
+	"Elementor": "#f5c1e1",
+	"Guntenberg": "#cac2ff",
+	"Do as a Team": "#7cc0ff"
 };

@@ -16,7 +16,6 @@
   "siteBtn": "Sitio",
   "hTools": "Habilidades",
   "hContact": "Contactame",
-
   "hError": "Error: Pagina no encontrada",
   "Home": "Inicio",
   "Resume": "Curriculum",
@@ -60,8 +59,6 @@
     "icbc": {
       "title": "Tecnicatura en Comercio Internacional",
       "place": "Fundación ICBC",
-      "start": "Mar 2017",
-      "end": "Jul 2020",
       "state": "graduada"
     },
     "iff": {
