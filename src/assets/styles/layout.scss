@@ -1,0 +1,78 @@
+@use "./base.scss" as *;
+
+.app-content {
+    padding-top: 80px;
+
+    @include responsive(mobile) {
+        padding-bottom: 70px;
+    }
+}
+
+/* LAYOUT/FOOTER */
+.footer {
+    color: var(--color-primary);
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .last-line {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2.5rem;
+        padding: 1.2rem 0;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+/* LAYOUT/NAV */
+.nav {
+    position: fixed;
+    inset-inline: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0.8rem;
+
+    background: color-mix(in srgb, var(--color-surface) 80%, transparent);
+    backdrop-filter: blur(16px);
+
+    border-top: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+
+    z-index: 1000;
+
+    .nav-action {
+        background: transparent;
+        border: none;
+        color: var(--color-text);
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+
+    @media (min-width: 768px) {
+        top: 0;
+        bottom: auto;
+        justify-content: center;
+        gap: 2rem;
+
+        border-top: none;
+        border-bottom: 1px solid var(--color-border);
+    }
+}
+
+[data-theme="dark"] .nav {
+    background: rgba(18, 24, 38, 0.7);
+}

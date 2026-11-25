@@ -2,41 +2,13 @@
     <section class="contact">
         <h3>{{ $t('hContact') }}</h3>
         <p>{{ $t('pContact1') }}</p>
-        <br />
         <div class="cards-group">
-            <div class="card">
+            <div class="card" v-for="item in filteredContacts" :key="item.id">
                 <h4>
-                    <a href="https://www.linkedin.com/in/meneghiniornella/" target="_blank"
-                        aria-label="Go to your email and send me a message in a new windows">
-                        LinkedIn <br />
-                        <span>{{ $t('hContact') }}</span>
-                    </a>
-                </h4>
-            </div>
-            <div class="card">
-                <h4>
-                    <a href="https://github.com/MeneghiniOrnella?tab=repositories" target="_blank"
-                        aria-label="Go to my Github profile and watch my repositories in a new windows">
-                        GitHub <br />
-                        <span>{{ $t('pContact2') }}</span>
-                    </a>
-                </h4>
-            </div>
-            <div class="card">
-                <h4>
-                    <a href="mailto:meneghini.ornella@gmail.com" target="_blank"
-                        aria-label="Go to your email and send me a message in a new windows">
-                        Email <br />
-                        <span>{{ $t('pContact3') }}</span>
-                    </a>
-                </h4>
-            </div>
-            <div class="card">
-                <h4>
-                    <a href="https://codepen.io/meneghiniornella" target="_blank"
-                        aria-label="Go to watch my Codepen Projects in a new windows">
-                        Codepen <br />
-                        <span>{{ $t('pContact4') }}</span>
+                    <a :href="item.url" target="_blank" rel="noopener"
+                        :aria-label="$t(`contacts.${item.id}.arialabel`)">
+                        {{ item.label }} <br />
+                        <span>{{ $t(`contacts.${item.id}.text`) }}</span>
                     </a>
                 </h4>
             </div>
@@ -51,32 +23,13 @@
 -->
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue"
+import { contacts } from "@/data/contacts";
 
-export default {
-    name: 'Home',
-}
+const ids = ["email", "linkedin", "github", "codepen"];
+
+const filteredContacts = computed(() =>
+    contacts.filter(contact => ids.includes(contact.id))
+);
 </script>
-
-<style>
-.contact .cards-group .card a {
-    width: auto;
-    background: none;
-    border: none;
-}
-
-.about-text {
-    margin: 4rem;
-}
-
-.contact-home a {
-    border-radius: 50px;
-    font-weight: 600;
-    color: #000;
-    background-color: var(--secondary);
-    cursor: pointer;
-    text-decoration: none;
-    border: none;
-    width: 20rem;
-}
-</style>
